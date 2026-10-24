@@ -1,19 +1,22 @@
 import { Fragment } from "react";
-import { interpolate, useCurrentFrame } from "remotion";
+import { useCurrentFrame } from "remotion";
 import { font, warna } from "../tema";
 import { pecahAksen, rapikanTandaBaca } from "../teks";
+import { mulus } from "../gerak";
 
 type Props = {
   teks: string;
   ukuranHuruf: number;
-  /** Frame saat teks ini mulai tampil */
+  /** Frame saat teks ini mulai muncul */
   mulai?: number;
   tinggiBaris?: number;
 };
 
+type Kata = { kata: string; aksen: boolean; ekor?: string };
+
 /**
- * Teks navy dengan kata aksen merah-oranye dan efek stabilo peach.
- * Tulis kata aksen di antara *bintang*.
+ * Teks navy yang muncul kata demi kata. Kata aksen berwarna merah-oranye
+ * dan disapu stabilo peach. Tulis kata aksen di antara *bintang*.
  */
 export const TeksAksen: React.FC<Props> = ({
   teks,
@@ -22,8 +25,18 @@ export const TeksAksen: React.FC<Props> = ({
   tinggiBaris = 1.16,
 }) => {
   const frame = useCurrentFrame() - mulai;
-  const potongan = rapikanTandaBaca(pecahAksen(teks));
-  let nomorAksen = 0;
+
+  const semuaKata: Kata[] = [];
+  for (const bagian of rapikanTandaBaca(pecahAksen(teks))) {
+    const pecahan = bagian.teks.split(" ").filter((k) => k.length > 0);
+    pecahan.forEach((kata, i) => {
+      semuaKata.push({
+        kata,
+        aksen: bagian.aksen,
+        ekor: i === pecahan.length - 1 ? bagian.ekor : undefined,
+      });
+    });
+  }
 
   return (
     <div
@@ -36,32 +49,24 @@ export const TeksAksen: React.FC<Props> = ({
         letterSpacing: "-0.015em",
       }}
     >
-      {potongan.map((bagian, i) => {
-        if (!bagian.aksen) {
-          return <span key={i}>{bagian.teks}</span>;
-        }
+      {semuaKata.map((item, i) => {
+        const tunda = i * 2.5;
+        const muncul = mulus(frame, tunda, tunda + 12, [0, 1]);
+        const naik = mulus(frame, tunda, tunda + 14, [0.34 * ukuranHuruf, 0]);
+        const sapu = mulus(frame, tunda + 6, tunda + 18, [0, 1]);
 
-        // Tiap kata dapat stabilo sendiri supaya frasa panjang tetap bisa
-        // pindah baris tanpa menabrak pinggir kartu.
-        const kata = bagian.teks.split(" ");
-
-        return kata.map((satuKata, j) => {
-          const tunda = 14 + nomorAksen * 5;
-          nomorAksen += 1;
-          const lebar = interpolate(frame, [tunda, tunda + 11], [0, 1], {
-            extrapolateLeft: "clamp",
-            extrapolateRight: "clamp",
-          });
-
-          return (
-            <Fragment key={`${i}-${j}`}>
-              <span
-                style={{
-                  position: "relative",
-                  display: "inline-block",
-                  color: warna.aksen,
-                }}
-              >
+        return (
+          <Fragment key={i}>
+            <span
+              style={{
+                position: "relative",
+                display: "inline-block",
+                color: item.aksen ? warna.aksen : undefined,
+                opacity: muncul,
+                transform: `translateY(${naik}px)`,
+              }}
+            >
+              {item.aksen ? (
                 <span
                   style={{
                     position: "absolute",
@@ -71,21 +76,21 @@ export const TeksAksen: React.FC<Props> = ({
                     height: "0.5em",
                     backgroundColor: warna.stabilo,
                     borderRadius: 6,
-                    transform: `scaleX(${lebar}) rotate(-0.7deg)`,
+                    transform: `scaleX(${sapu}) rotate(-0.7deg)`,
                     transformOrigin: "left center",
                   }}
                 />
-                <span style={{ position: "relative" }}>{satuKata}</span>
-                {j === kata.length - 1 && bagian.ekor ? (
-                  <span style={{ position: "relative", color: warna.navy }}>
-                    {bagian.ekor}
-                  </span>
-                ) : null}
-              </span>
-              {j < kata.length - 1 ? " " : null}
-            </Fragment>
-          );
-        });
+              ) : null}
+              <span style={{ position: "relative" }}>{item.kata}</span>
+              {item.ekor ? (
+                <span style={{ position: "relative", color: warna.navy }}>
+                  {item.ekor}
+                </span>
+              ) : null}
+            </span>
+            {i < semuaKata.length - 1 ? " " : null}
+          </Fragment>
+        );
       })}
     </div>
   );

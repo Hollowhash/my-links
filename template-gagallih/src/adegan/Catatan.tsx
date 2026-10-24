@@ -1,4 +1,3 @@
-import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import type { Kartu } from "../tipe";
 import { KartuPutih } from "../komponen/KartuPutih";
 import { MediaKartu } from "../komponen/MediaKartu";
@@ -16,10 +15,6 @@ type Props = {
 
 /** Kartu catatan: nomor, media yang ikut bercerita, lalu teks utama. */
 export const Catatan: React.FC<Props> = ({ kartu, nomor, total, slug, durasi }) => {
-  const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const masuk = spring({ frame, fps, delay: 8, config: { damping: 200 } });
-
   return (
     <KartuPutih durasi={durasi}>
       <NomorCatatan nomor={nomor} total={total} />
@@ -32,17 +27,11 @@ export const Catatan: React.FC<Props> = ({ kartu, nomor, total, slug, durasi }) 
         <div style={{ flex: 1 }} />
       )}
 
-      <div
-        style={{
-          marginTop: 46,
-          opacity: masuk,
-          transform: `translateY(${interpolate(masuk, [0, 1], [22, 0])}px)`,
-        }}
-      >
+      <div style={{ marginTop: 46 }}>
         <TeksAksen
           teks={kartu.teks}
           ukuranHuruf={ukuranHurufKartu(kartu.teks)}
-          mulai={8}
+          mulai={14}
         />
       </div>
     </KartuPutih>

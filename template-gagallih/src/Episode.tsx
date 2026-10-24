@@ -2,12 +2,14 @@ import "./font";
 import { AbsoluteFill, Audio, Sequence, interpolate, staticFile } from "remotion";
 import type { Episode } from "./tipe";
 import { Latar } from "./komponen/Latar";
+import { GarisKemajuan } from "./komponen/GarisKemajuan";
 import { Subtitle } from "./komponen/Subtitle";
 import { Pembuka } from "./adegan/Pembuka";
 import { Catatan } from "./adegan/Catatan";
 import { Penutup } from "./adegan/Penutup";
 import { hitungJadwal } from "./jadwal";
 import { buatSubtitle } from "./teks";
+import { TRANSISI } from "./gerak";
 
 export type PropsEpisode = {
   episode: Episode;
@@ -22,26 +24,30 @@ export const VideoEpisode: React.FC<PropsEpisode> = ({ episode }) => {
   return (
     <AbsoluteFill>
       <Latar />
+      <GarisKemajuan />
 
       <Sequence
         from={jadwal.pembuka.dari}
-        durationInFrames={jadwal.pembuka.sampai - jadwal.pembuka.dari}
+        durationInFrames={jadwal.pembuka.sampai - jadwal.pembuka.dari + TRANSISI}
         name="pembuka"
       >
         <Pembuka
           kartu={episode.pembuka}
           slug={episode.slug}
-          durasi={jadwal.pembuka.sampai - jadwal.pembuka.dari}
+          durasi={jadwal.pembuka.sampai - jadwal.pembuka.dari + TRANSISI}
         />
       </Sequence>
 
       {episode.catatan.map((kartu, i) => {
         const bagian = jadwal.catatan[i];
+        // Tiap kartu dimulai sedikit lebih awal supaya pergantiannya menyambung,
+        // kartu baru naik sementara kartu lama mundur ke belakang.
+        const panjang = bagian.sampai - bagian.dari + TRANSISI;
         return (
           <Sequence
             key={i}
-            from={bagian.dari}
-            durationInFrames={bagian.sampai - bagian.dari}
+            from={Math.max(0, bagian.dari - TRANSISI)}
+            durationInFrames={panjang}
             name={`catatan ${i + 1}`}
           >
             <Catatan
@@ -49,21 +55,21 @@ export const VideoEpisode: React.FC<PropsEpisode> = ({ episode }) => {
               nomor={i + 1}
               total={total}
               slug={episode.slug}
-              durasi={bagian.sampai - bagian.dari}
+              durasi={panjang}
             />
           </Sequence>
         );
       })}
 
       <Sequence
-        from={jadwal.penutup.dari}
-        durationInFrames={jadwal.penutup.sampai - jadwal.penutup.dari}
+        from={Math.max(0, jadwal.penutup.dari - TRANSISI)}
+        durationInFrames={jadwal.penutup.sampai - jadwal.penutup.dari + TRANSISI}
         name="penutup"
       >
         <Penutup
           kartu={episode.penutup}
           slug={episode.slug}
-          durasi={jadwal.penutup.sampai - jadwal.penutup.dari}
+          durasi={jadwal.penutup.sampai - jadwal.penutup.dari + TRANSISI}
         />
       </Sequence>
 

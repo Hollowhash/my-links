@@ -58,6 +58,23 @@ Jangan membangun ulang template dari nol. Cukup ganti isinya.
   `mulaiKlip` untuk memotong bagian awal yang tidak terpakai.
 - Tiap catatan sebaiknya punya foto atau klip yang ikut bercerita.
 
+## Gerak
+
+Yang bergerak di template ini:
+
+- Kartu naik dari bawah sambil sedikit miring, lalu didorong mundur ke belakang
+  waktu kartu berikutnya datang. Pergantiannya menyambung, bukan potong.
+- Teks besar muncul kata demi kata, stabilo peach menyapu di belakang kata aksen.
+- Subtitle juga muncul kata demi kata mengikuti irama kalimat.
+- Foto dibuka dengan sapuan dari bawah, lalu zoom dan geser pelan.
+  Klip dibuka dengan cara yang sama.
+- Nomor catatan melompat masuk, batang penanda melebar ke catatan yang aktif.
+- Angka besar lewat di belakang kartu tiap ganti catatan.
+- Latar hidup terus: noda cahaya, titik-titik yang merayap, cincin dan kotak melayang.
+
+Pengaturannya ada di `src/gerak.ts`. `TRANSISI` mengatur lama tumpang tindih
+antar kartu dalam frame.
+
 ## Catatan teknis
 
 - Durasi video mengikuti durasi voice over, tidak diatur manual.

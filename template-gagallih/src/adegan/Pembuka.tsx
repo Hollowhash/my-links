@@ -1,10 +1,11 @@
-import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { useCurrentFrame } from "remotion";
 import type { Kartu } from "../tipe";
 import { KartuPutih } from "../komponen/KartuPutih";
 import { MediaKartu } from "../komponen/MediaKartu";
 import { TeksAksen } from "../komponen/TeksAksen";
 import { ukuranHurufKartu } from "../teks";
 import { font, warna } from "../tema";
+import { mulus } from "../gerak";
 
 type Props = {
   kartu: Kartu;
@@ -15,8 +16,7 @@ type Props = {
 /** Kartu pembuka: hook dulu yang besar, media menyusul di bawahnya. */
 export const Pembuka: React.FC<Props> = ({ kartu, slug, durasi }) => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
-  const masuk = spring({ frame, fps, delay: 3, config: { damping: 200 } });
+  const pil = mulus(frame, 2, 16, [0, 1]);
 
   return (
     <KartuPutih durasi={durasi}>
@@ -33,22 +33,18 @@ export const Pembuka: React.FC<Props> = ({ kartu, slug, durasi }) => {
           letterSpacing: "0.14em",
           textTransform: "uppercase",
           marginBottom: 40,
+          opacity: pil,
+          transform: `translateY(${(1 - pil) * -16}px)`,
         }}
       >
         {kartu.label ?? "catatan singkat"}
       </div>
 
-      <div
-        style={{
-          opacity: masuk,
-          transform: `translateY(${interpolate(masuk, [0, 1], [26, 0])}px)`,
-          marginBottom: 48,
-        }}
-      >
+      <div style={{ marginBottom: 48 }}>
         <TeksAksen
           teks={kartu.teks}
           ukuranHuruf={ukuranHurufKartu(kartu.teks, true)}
-          mulai={3}
+          mulai={6}
           tinggiBaris={1.1}
         />
       </div>

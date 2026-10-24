@@ -1,5 +1,6 @@
-import { interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
+import { useCurrentFrame } from "remotion";
 import { ukuran, warna } from "../tema";
+import { TRANSISI, mulus } from "../gerak";
 
 type Props = {
   /** Lama kartu ini tampil, dalam frame. Dipakai untuk animasi keluar. */
@@ -9,19 +10,23 @@ type Props = {
   children: React.ReactNode;
 };
 
-/** Kartu putih di tengah layar, masuk dengan gerak halus lalu keluar lembut. */
+/**
+ * Kartu putih yang masuk dari bawah sambil berdiri tegak, lalu didorong
+ * mundur ke belakang waktu kartu berikutnya datang.
+ */
 export const KartuPutih: React.FC<Props> = ({ durasi, tinggi = "penuh", children }) => {
   const frame = useCurrentFrame();
-  const { fps } = useVideoConfig();
 
-  const masuk = spring({ frame, fps, config: { damping: 200, mass: 0.6 } });
-  const keluar = interpolate(frame, [durasi - 12, durasi], [0, 1], {
-    extrapolateLeft: "clamp",
-    extrapolateRight: "clamp",
-  });
+  const masuk = mulus(frame, 0, 22, [0, 1]);
+  const keluar = mulus(frame, durasi - TRANSISI, durasi, [0, 1]);
 
-  const skala = interpolate(masuk, [0, 1], [0.955, 1]) - keluar * 0.025;
-  const naik = interpolate(masuk, [0, 1], [46, 0]) - keluar * 26;
+  // Masuk: naik dari bawah, sedikit miring, lalu tegak.
+  // Keluar: mundur ke belakang dan memudar.
+  const naik = (1 - masuk) * 150 - keluar * 70;
+  const jauh = (1 - masuk) * -260 - keluar * 300;
+  const miring = (1 - masuk) * 9 - keluar * 5;
+  // Dorongan kamera pelan supaya kartu tidak terasa diam.
+  const dorong = mulus(frame, 0, durasi, [1, 1.022]);
 
   return (
     <div
@@ -33,6 +38,7 @@ export const KartuPutih: React.FC<Props> = ({ durasi, tinggi = "penuh", children
         height: ukuran.kartuTinggi,
         display: "flex",
         alignItems: "center",
+        perspective: 2000,
       }}
     >
       <div
@@ -45,9 +51,10 @@ export const KartuPutih: React.FC<Props> = ({ durasi, tinggi = "penuh", children
           padding: ukuran.pad,
           display: "flex",
           flexDirection: "column",
-          boxShadow: "0 40px 90px rgba(18,42,74,0.14), 0 6px 18px rgba(18,42,74,0.06)",
+          boxShadow: `0 ${40 + (1 - masuk) * 50}px ${90 + (1 - masuk) * 60}px rgba(18,42,74,${0.14 * masuk}), 0 6px 18px rgba(18,42,74,0.06)`,
           opacity: masuk * (1 - keluar),
-          transform: `translateY(${naik}px) scale(${skala})`,
+          transform: `translateY(${naik}px) translateZ(${jauh}px) rotateX(${miring}deg) scale(${dorong})`,
+          transformOrigin: "center 40%",
         }}
       >
         {children}
