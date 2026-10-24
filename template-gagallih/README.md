@@ -1,5 +1,9 @@
 # Template kartu putih gagallih
 
+> Catatan: sejak CLAUDE.md versi "Pabrik video vertikal Catatan" masuk,
+> pekerjaan episode pindah ke folder `catatan/`. Template ini ditinggal
+> sebagai rujukan gaya kartu putih yang sederhana.
+
 Template Remotion untuk video Short gagallih, ukuran 1080 x 1920, gaya kartu putih.
 Panduan proyek ada di CLAUDE.md milik Galih. Baca itu dulu sebelum mengerjakan episode.
 

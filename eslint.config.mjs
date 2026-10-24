@@ -14,6 +14,7 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     // Template Remotion punya konfigurasi sendiri.
     "template-gagallih/**",
+    "catatan/**",
   ]),
 ]);
 

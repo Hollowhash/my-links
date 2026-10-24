@@ -1,0 +1,985 @@
+{
+ "durasi": 83.330625,
+ "words": [
+  {
+   "word": "Udah",
+   "start": 0,
+   "end": 0.3
+  },
+  {
+   "word": "cerai,",
+   "start": 0.3,
+   "end": 1.023
+  },
+  {
+   "word": "dan",
+   "start": 1.38,
+   "end": 2.14
+  },
+  {
+   "word": "sejak",
+   "start": 2.14,
+   "end": 2.56
+  },
+  {
+   "word": "itu",
+   "start": 2.56,
+   "end": 3.034
+  },
+  {
+   "word": "uang",
+   "start": 3.18,
+   "end": 3.5
+  },
+  {
+   "word": "buat",
+   "start": 3.5,
+   "end": 3.7
+  },
+  {
+   "word": "anak",
+   "start": 3.7,
+   "end": 3.96
+  },
+  {
+   "word": "berhenti",
+   "start": 3.96,
+   "end": 4.2
+  },
+  {
+   "word": "datang?",
+   "start": 4.2,
+   "end": 5.453
+  },
+  {
+   "word": "Banyak",
+   "start": 5.96,
+   "end": 6.32
+  },
+  {
+   "word": "yang",
+   "start": 6.32,
+   "end": 6.588
+  },
+  {
+   "word": "diam,",
+   "start": 6.588,
+   "end": 6.855
+  },
+  {
+   "word": "karena",
+   "start": 7.24,
+   "end": 7.76
+  },
+  {
+   "word": "ngira",
+   "start": 7.76,
+   "end": 8.16
+  },
+  {
+   "word": "itu",
+   "start": 8.16,
+   "end": 8.357
+  },
+  {
+   "word": "soal",
+   "start": 8.357,
+   "end": 8.62
+  },
+  {
+   "word": "belas",
+   "start": 8.62,
+   "end": 8.82
+  },
+  {
+   "word": "kasihan.",
+   "start": 8.82,
+   "end": 9.308
+  },
+  {
+   "word": "Padahal",
+   "start": 9.814,
+   "end": 10.406
+  },
+  {
+   "word": "itu",
+   "start": 10.574,
+   "end": 10.894
+  },
+  {
+   "word": "hak",
+   "start": 10.894,
+   "end": 11.154
+  },
+  {
+   "word": "anak.",
+   "start": 11.154,
+   "end": 11.405
+  },
+  {
+   "word": "Kita",
+   "start": 11.934,
+   "end": 12.378
+  },
+  {
+   "word": "lurusin",
+   "start": 12.378,
+   "end": 12.801
+  },
+  {
+   "word": "empat",
+   "start": 12.801,
+   "end": 13.103
+  },
+  {
+   "word": "mitos.",
+   "start": 13.103,
+   "end": 13.406
+  },
+  {
+   "word": "Mitos",
+   "start": 13.406,
+   "end": 14.174
+  },
+  {
+   "word": "satu.",
+   "start": 14.174,
+   "end": 14.548
+  },
+  {
+   "word": "Udah",
+   "start": 14.794,
+   "end": 15.214
+  },
+  {
+   "word": "cerai,",
+   "start": 15.214,
+   "end": 15.556
+  },
+  {
+   "word": "kewajiban",
+   "start": 15.556,
+   "end": 16.174
+  },
+  {
+   "word": "ayah",
+   "start": 16.174,
+   "end": 16.494
+  },
+  {
+   "word": "selesai.",
+   "start": 16.494,
+   "end": 16.934
+  },
+  {
+   "word": "Faktanya,",
+   "start": 17.354,
+   "end": 18.394
+  },
+  {
+   "word": "undang-undang",
+   "start": 18.394,
+   "end": 18.874
+  },
+  {
+   "word": "bilang",
+   "start": 18.874,
+   "end": 19.294
+  },
+  {
+   "word": "ayah",
+   "start": 19.294,
+   "end": 19.694
+  },
+  {
+   "word": "tetap",
+   "start": 19.694,
+   "end": 20.074
+  },
+  {
+   "word": "menanggung",
+   "start": 20.074,
+   "end": 20.629
+  },
+  {
+   "word": "biaya",
+   "start": 20.629,
+   "end": 20.907
+  },
+  {
+   "word": "pemeliharaan",
+   "start": 20.907,
+   "end": 21.574
+  },
+  {
+   "word": "dan",
+   "start": 21.574,
+   "end": 21.854
+  },
+  {
+   "word": "pendidikan",
+   "start": 21.854,
+   "end": 22.254
+  },
+  {
+   "word": "anak,",
+   "start": 22.254,
+   "end": 22.809
+  },
+  {
+   "word": "sesuai",
+   "start": 22.809,
+   "end": 23.135
+  },
+  {
+   "word": "kemampuannya,",
+   "start": 23.135,
+   "end": 24.014
+  },
+  {
+   "word": "sampai",
+   "start": 24.014,
+   "end": 24.554
+  },
+  {
+   "word": "anak",
+   "start": 24.554,
+   "end": 24.858
+  },
+  {
+   "word": "dewasa",
+   "start": 24.858,
+   "end": 25.314
+  },
+  {
+   "word": "dan",
+   "start": 25.314,
+   "end": 25.734
+  },
+  {
+   "word": "bisa",
+   "start": 25.734,
+   "end": 25.994
+  },
+  {
+   "word": "mandiri.",
+   "start": 25.994,
+   "end": 26.948
+  },
+  {
+   "word": "Mitos",
+   "start": 26.948,
+   "end": 27.274
+  },
+  {
+   "word": "dua.",
+   "start": 27.274,
+   "end": 27.432
+  },
+  {
+   "word": "Nggak",
+   "start": 27.432,
+   "end": 28.043
+  },
+  {
+   "word": "diminta",
+   "start": 28.043,
+   "end": 28.414
+  },
+  {
+   "word": "waktu",
+   "start": 28.414,
+   "end": 28.722
+  },
+  {
+   "word": "sidang",
+   "start": 28.722,
+   "end": 29.093
+  },
+  {
+   "word": "cerai,",
+   "start": 29.093,
+   "end": 29.401
+  },
+  {
+   "word": "berarti",
+   "start": 29.401,
+   "end": 29.834
+  },
+  {
+   "word": "hilang.",
+   "start": 29.834,
+   "end": 30.25
+  },
+  {
+   "word": "Faktanya,",
+   "start": 30.594,
+   "end": 31.078
+  },
+  {
+   "word": "hakim",
+   "start": 31.078,
+   "end": 31.587
+  },
+  {
+   "word": "pengadilan",
+   "start": 31.587,
+   "end": 32.174
+  },
+  {
+   "word": "agama",
+   "start": 32.174,
+   "end": 32.654
+  },
+  {
+   "word": "bisa",
+   "start": 32.654,
+   "end": 33.114
+  },
+  {
+   "word": "menetapkan",
+   "start": 33.114,
+   "end": 33.719
+  },
+  {
+   "word": "nafkah",
+   "start": 33.719,
+   "end": 34.082
+  },
+  {
+   "word": "anak",
+   "start": 34.082,
+   "end": 34.324
+  },
+  {
+   "word": "walau",
+   "start": 34.324,
+   "end": 34.626
+  },
+  {
+   "word": "nggak",
+   "start": 34.626,
+   "end": 34.929
+  },
+  {
+   "word": "diminta,",
+   "start": 34.929,
+   "end": 35.352
+  },
+  {
+   "word": "asal",
+   "start": 35.667,
+   "end": 36.167
+  },
+  {
+   "word": "anaknya",
+   "start": 36.167,
+   "end": 36.647
+  },
+  {
+   "word": "terbukti",
+   "start": 36.647,
+   "end": 37.14
+  },
+  {
+   "word": "diasuh",
+   "start": 37.14,
+   "end": 37.51
+  },
+  {
+   "word": "ibunya.",
+   "start": 37.51,
+   "end": 38.387
+  },
+  {
+   "word": "Kalau",
+   "start": 38.387,
+   "end": 38.607
+  },
+  {
+   "word": "putusannya",
+   "start": 38.607,
+   "end": 39.007
+  },
+  {
+   "word": "udah",
+   "start": 39.007,
+   "end": 39.207
+  },
+  {
+   "word": "lewat,",
+   "start": 39.207,
+   "end": 39.476
+  },
+  {
+   "word": "gugatan",
+   "start": 39.476,
+   "end": 40.067
+  },
+  {
+   "word": "nafkah",
+   "start": 40.067,
+   "end": 40.427
+  },
+  {
+   "word": "anak",
+   "start": 40.427,
+   "end": 40.681
+  },
+  {
+   "word": "bisa",
+   "start": 40.827,
+   "end": 41.139
+  },
+  {
+   "word": "diajukan",
+   "start": 41.139,
+   "end": 41.627
+  },
+  {
+   "word": "terpisah.",
+   "start": 41.627,
+   "end": 42.427
+  },
+  {
+   "word": "Mitos",
+   "start": 42.427,
+   "end": 42.839
+  },
+  {
+   "word": "tiga.",
+   "start": 42.839,
+   "end": 43.467
+  },
+  {
+   "word": "Nafkah",
+   "start": 43.467,
+   "end": 43.687
+  },
+  {
+   "word": "yang",
+   "start": 43.687,
+   "end": 43.907
+  },
+  {
+   "word": "dulu",
+   "start": 43.907,
+   "end": 44.117
+  },
+  {
+   "word": "nggak",
+   "start": 44.117,
+   "end": 44.379
+  },
+  {
+   "word": "dibayar",
+   "start": 44.379,
+   "end": 44.747
+  },
+  {
+   "word": "udah",
+   "start": 44.747,
+   "end": 45.007
+  },
+  {
+   "word": "hangus.",
+   "start": 45.007,
+   "end": 45.485
+  },
+  {
+   "word": "Faktanya,",
+   "start": 45.709,
+   "end": 46.351
+  },
+  {
+   "word": "Mahkamah",
+   "start": 46.351,
+   "end": 47.094
+  },
+  {
+   "word": "Agung",
+   "start": 47.094,
+   "end": 47.429
+  },
+  {
+   "word": "membolehkan",
+   "start": 47.429,
+   "end": 48.009
+  },
+  {
+   "word": "ibu,",
+   "start": 48.009,
+   "end": 48.509
+  },
+  {
+   "word": "atau",
+   "start": 48.509,
+   "end": 48.829
+  },
+  {
+   "word": "siapa",
+   "start": 48.829,
+   "end": 49.229
+  },
+  {
+   "word": "pun",
+   "start": 49.229,
+   "end": 49.429
+  },
+  {
+   "word": "yang",
+   "start": 49.429,
+   "end": 49.624
+  },
+  {
+   "word": "nyata-nyata",
+   "start": 49.624,
+   "end": 50.109
+  },
+  {
+   "word": "mengasuh",
+   "start": 50.109,
+   "end": 50.409
+  },
+  {
+   "word": "anak,",
+   "start": 50.409,
+   "end": 50.969
+  },
+  {
+   "word": "menggugat",
+   "start": 50.969,
+   "end": 51.469
+  },
+  {
+   "word": "nafkah",
+   "start": 51.469,
+   "end": 51.809
+  },
+  {
+   "word": "lampau",
+   "start": 51.809,
+   "end": 52.149
+  },
+  {
+   "word": "anak.",
+   "start": 52.149,
+   "end": 52.849
+  },
+  {
+   "word": "Simpan",
+   "start": 52.849,
+   "end": 53.18
+  },
+  {
+   "word": "bukti",
+   "start": 53.18,
+   "end": 53.455
+  },
+  {
+   "word": "biaya",
+   "start": 53.455,
+   "end": 53.73
+  },
+  {
+   "word": "sekolah,",
+   "start": 53.73,
+   "end": 54.115
+  },
+  {
+   "word": "berobat,",
+   "start": 54.115,
+   "end": 55.004
+  },
+  {
+   "word": "dan",
+   "start": 55.004,
+   "end": 55.264
+  },
+  {
+   "word": "chat.",
+   "start": 55.264,
+   "end": 55.884
+  },
+  {
+   "word": "Mitos",
+   "start": 55.884,
+   "end": 56.131
+  },
+  {
+   "word": "empat.",
+   "start": 56.131,
+   "end": 56.666
+  },
+  {
+   "word": "Udah",
+   "start": 56.666,
+   "end": 56.864
+  },
+  {
+   "word": "ada",
+   "start": 56.864,
+   "end": 57.084
+  },
+  {
+   "word": "putusan",
+   "start": 57.084,
+   "end": 57.664
+  },
+  {
+   "word": "tapi",
+   "start": 57.664,
+   "end": 57.904
+  },
+  {
+   "word": "dia",
+   "start": 57.904,
+   "end": 58.084
+  },
+  {
+   "word": "nggak",
+   "start": 58.084,
+   "end": 58.284
+  },
+  {
+   "word": "bayar,",
+   "start": 58.284,
+   "end": 58.744
+  },
+  {
+   "word": "ya",
+   "start": 58.744,
+   "end": 59.064
+  },
+  {
+   "word": "udah,",
+   "start": 59.064,
+   "end": 59.335
+  },
+  {
+   "word": "pasrah.",
+   "start": 59.404,
+   "end": 60.384
+  },
+  {
+   "word": "Faktanya,",
+   "start": 60.384,
+   "end": 60.964
+  },
+  {
+   "word": "lo",
+   "start": 60.964,
+   "end": 61.504
+  },
+  {
+   "word": "bisa",
+   "start": 61.504,
+   "end": 61.884
+  },
+  {
+   "word": "minta",
+   "start": 61.884,
+   "end": 62.144
+  },
+  {
+   "word": "eksekusi",
+   "start": 62.144,
+   "end": 62.56
+  },
+  {
+   "word": "ke",
+   "start": 62.56,
+   "end": 62.664
+  },
+  {
+   "word": "pengadilan",
+   "start": 62.664,
+   "end": 63.164
+  },
+  {
+   "word": "yang",
+   "start": 63.164,
+   "end": 63.4
+  },
+  {
+   "word": "memutus.",
+   "start": 63.4,
+   "end": 64.032
+  },
+  {
+   "word": "Ujungnya",
+   "start": 64.032,
+   "end": 64.732
+  },
+  {
+   "word": "bisa",
+   "start": 64.732,
+   "end": 64.952
+  },
+  {
+   "word": "sita",
+   "start": 64.952,
+   "end": 65.212
+  },
+  {
+   "word": "harta",
+   "start": 65.212,
+   "end": 65.752
+  },
+  {
+   "word": "atau",
+   "start": 65.752,
+   "end": 66.192
+  },
+  {
+   "word": "potong",
+   "start": 66.192,
+   "end": 66.528
+  },
+  {
+   "word": "gaji.",
+   "start": 66.528,
+   "end": 67.212
+  },
+  {
+   "word": "Yang",
+   "start": 67.212,
+   "end": 67.474
+  },
+  {
+   "word": "nggak",
+   "start": 67.474,
+   "end": 67.796
+  },
+  {
+   "word": "mampu",
+   "start": 67.796,
+   "end": 68.117
+  },
+  {
+   "word": "bayar",
+   "start": 68.117,
+   "end": 68.439
+  },
+  {
+   "word": "biaya",
+   "start": 68.439,
+   "end": 68.76
+  },
+  {
+   "word": "perkara,",
+   "start": 68.76,
+   "end": 69.21
+  },
+  {
+   "word": "bisa",
+   "start": 69.21,
+   "end": 69.468
+  },
+  {
+   "word": "minta",
+   "start": 69.468,
+   "end": 69.789
+  },
+  {
+   "word": "bebas",
+   "start": 69.789,
+   "end": 70.111
+  },
+  {
+   "word": "biaya",
+   "start": 70.111,
+   "end": 70.432
+  },
+  {
+   "word": "dan",
+   "start": 70.432,
+   "end": 70.632
+  },
+  {
+   "word": "dibantu",
+   "start": 70.632,
+   "end": 71.044
+  },
+  {
+   "word": "Pos",
+   "start": 71.044,
+   "end": 71.22
+  },
+  {
+   "word": "Bantuan",
+   "start": 71.22,
+   "end": 71.632
+  },
+  {
+   "word": "Hukum.",
+   "start": 71.632,
+   "end": 72.372
+  },
+  {
+   "word": "Nagih",
+   "start": 72.372,
+   "end": 72.672
+  },
+  {
+   "word": "nafkah",
+   "start": 72.672,
+   "end": 73.032
+  },
+  {
+   "word": "anak",
+   "start": 73.032,
+   "end": 73.412
+  },
+  {
+   "word": "bukan",
+   "start": 73.412,
+   "end": 73.734
+  },
+  {
+   "word": "ngemis.",
+   "start": 73.734,
+   "end": 74.306
+  },
+  {
+   "word": "Itu",
+   "start": 74.306,
+   "end": 74.621
+  },
+  {
+   "word": "hak",
+   "start": 74.621,
+   "end": 74.911
+  },
+  {
+   "word": "anak",
+   "start": 74.911,
+   "end": 75.296
+  },
+  {
+   "word": "lo.",
+   "start": 75.296,
+   "end": 75.806
+  },
+  {
+   "word": "Menurut",
+   "start": 75.806,
+   "end": 76.086
+  },
+  {
+   "word": "lo,",
+   "start": 76.086,
+   "end": 76.446
+  },
+  {
+   "word": "apa",
+   "start": 76.446,
+   "end": 76.651
+  },
+  {
+   "word": "yang",
+   "start": 76.651,
+   "end": 76.926
+  },
+  {
+   "word": "paling",
+   "start": 76.926,
+   "end": 77.185
+  },
+  {
+   "word": "bikin",
+   "start": 77.185,
+   "end": 77.4
+  },
+  {
+   "word": "orang",
+   "start": 77.4,
+   "end": 77.616
+  },
+  {
+   "word": "tua",
+   "start": 77.616,
+   "end": 77.746
+  },
+  {
+   "word": "tunggal",
+   "start": 77.746,
+   "end": 78.126
+  },
+  {
+   "word": "nggak",
+   "start": 78.126,
+   "end": 78.386
+  },
+  {
+   "word": "nagih?",
+   "start": 78.386,
+   "end": 78.588
+  },
+  {
+   "word": "Tulis",
+   "start": 78.588,
+   "end": 79.206
+  },
+  {
+   "word": "di",
+   "start": 79.206,
+   "end": 79.337
+  },
+  {
+   "word": "komentar.",
+   "start": 79.337,
+   "end": 80.246
+  },
+  {
+   "word": "Simpan,",
+   "start": 80.246,
+   "end": 80.589
+  },
+  {
+   "word": "kirim",
+   "start": 80.589,
+   "end": 81.131
+  },
+  {
+   "word": "ke",
+   "start": 81.131,
+   "end": 81.246
+  },
+  {
+   "word": "yang",
+   "start": 81.246,
+   "end": 81.466
+  },
+  {
+   "word": "lagi",
+   "start": 81.466,
+   "end": 81.723
+  },
+  {
+   "word": "butuh,",
+   "start": 81.723,
+   "end": 82.046
+  },
+  {
+   "word": "dan",
+   "start": 82.046,
+   "end": 82.366
+  },
+  {
+   "word": "follow",
+   "start": 82.366,
+   "end": 82.738
+  },
+  {
+   "word": "akun",
+   "start": 82.738,
+   "end": 82.986
+  },
+  {
+   "word": "ini.",
+   "start": 82.986,
+   "end": 83.281
+  }
+ ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "catatan-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Main"
+  },
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/cli": "^4.0.538",
+    "@remotion/fonts": "^4.0.538",
+    "@remotion/media-utils": "^4.0.538",
+    "@remotion/three": "^4.0.538",
+    "lucide-react": "^1.61.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.538",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@types/three": "^0.186.0",
+    "typescript": "^5.9.3"
+  }
+}
