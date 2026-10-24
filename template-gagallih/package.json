@@ -1,0 +1,28 @@
+{
+  "name": "template-gagallih",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Template Remotion gaya kartu putih untuk video Short gagallih",
+  "scripts": {
+    "studio": "remotion studio",
+    "render": "remotion render Episode",
+    "still": "remotion still Episode",
+    "siapkan": "node scripts/siapkan-episode.mjs",
+    "cek": "node scripts/cek-sebelum-kirim.mjs",
+    "tipe": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.538",
+    "@remotion/fonts": "^4.0.538",
+    "@remotion/media-utils": "^4.0.538",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.538"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^5.9.3"
+  }
+}

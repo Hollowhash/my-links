@@ -1,0 +1,73 @@
+{
+  "_catatan": "Episode contoh untuk menguji template. Teksnya dummy, ganti dengan skrip asli yang sudah dicek.",
+  "slug": "contoh",
+  "judul": "Baru resign, ini yang wajib diminta",
+  "pembuka": {
+    "label": "90 detik",
+    "teks": "Baru resign? Ada *4 kertas* yang wajib lo bawa pulang.",
+    "vo": "Baru resign? Jangan buru buru pergi. Ada empat kertas yang wajib lo bawa pulang dari kantor lama.",
+    "media": {
+      "jenis": "klip",
+      "file": "klip-1.mp4",
+      "durasiKlip": 8
+    }
+  },
+  "catatan": [
+    {
+      "teks": "Paklaring itu *hak lo*, bukan hadiah dari HR.",
+      "vo": "Pertama, paklaring. Ini hak lo, bukan hadiah dari HR. Minta sebelum hari terakhir.",
+      "media": {
+        "jenis": "foto",
+        "file": "foto-1.jpg",
+        "fokus": "tengah"
+      }
+    },
+    {
+      "teks": "Pastikan ada *tanggal masuk dan keluar* di suratnya.",
+      "vo": "Kedua, pastikan di suratnya ada tanggal masuk dan tanggal keluar. Tanpa itu, HRD kantor baru suka ragu.",
+      "media": {
+        "jenis": "klip",
+        "file": "klip-2.mp4",
+        "durasiKlip": 8
+      }
+    },
+    {
+      "teks": "BPJS Kesehatan jangan sampai *nunggak*, pindah ke mandiri.",
+      "vo": "Ketiga, BPJS Kesehatan lo ikut berhenti. Jangan sampai nunggak, urus pindah ke mandiri.",
+      "media": {
+        "jenis": "foto",
+        "file": "foto-2.jpg",
+        "fokus": "tengah"
+      }
+    },
+    {
+      "teks": "Tanya sisa cuti dan *THR prorata* ke bagian keuangan.",
+      "vo": "Keempat, tanya sisa cuti dan THR prorata ke bagian keuangan. Catat angkanya, jangan cuma percaya ucapan.",
+      "media": {
+        "jenis": "foto",
+        "file": "foto-3.jpg",
+        "fokus": "tengah"
+      }
+    },
+    {
+      "teks": "Simpan *slip gaji* tiga bulan terakhir di HP lo.",
+      "vo": "Kelima, simpan slip gaji tiga bulan terakhir. Nanti kepakai waktu lamaran baru.",
+      "media": {
+        "jenis": "foto",
+        "file": "foto-1.jpg",
+        "fokus": "bawah"
+      }
+    }
+  ],
+  "penutup": {
+    "label": "pegang ini",
+    "teks": "Minta semuanya *sebelum hari terakhir*. Setelah itu susah dikejar.",
+    "vo": "Minta semuanya sebelum hari terakhir. Setelah lo keluar, semuanya jadi susah dikejar."
+  },
+  "vo": null,
+  "durasiVO": null,
+  "musik": null,
+  "volumeMusik": 0.08,
+  "subtitle": null,
+  "durasiPenutup": 5
+}
