@@ -47,5 +47,6 @@ if __name__ == "__main__":
         derau = sosfilt(butter(4, [120 / (SR / 2), 1800 / (SR / 2)], btype="band", output="sos"), derau)
         taruh(bus, derau * a["volume"] * 0.25, a["dari"])
 
-    wavfile.write("sfx_bus.wav", SR, (np.tanh(bus) * 0.9 * 32767).astype(np.int16))
-    print(f"sfx_bus.wav siap ({tl['total']:.1f} detik, {len(tl['sfx'])} swoosh)")
+    slug = tl.get("slug", "ep")
+    wavfile.write(f"sfx_{slug}.wav", SR, (np.tanh(bus) * 0.9 * 32767).astype(np.int16))
+    print(f"sfx_{slug}.wav siap ({tl['total']:.1f} detik, {len(tl['sfx'])} swoosh)")

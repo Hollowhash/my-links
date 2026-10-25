@@ -341,7 +341,7 @@ export const Clip: React.FC<{
     if (d >= 0 && d < 0.42) guncang += Math.sin(d * 58) * 16 * (1 - d / 0.42);
   }
 
-  const src = staticFile(`clips/${clip}`);
+  const src = staticFile(clip);
   const isi: React.CSSProperties = {
     width: "100%",
     height: "100%",
@@ -403,7 +403,8 @@ export const Foto: React.FC<{
   geser?: [number, number];
   naik?: [number, number];
   tutup?: boolean;
-}> = ({ file, dur, T, mulai, zoom = [1.05, 1.16], geser = [0, 0], naik = [0, 0], tutup = true }) => {
+  blur?: number;
+}> = ({ file, dur, T, mulai, zoom = [1.05, 1.16], geser = [0, 0], naik = [0, 0], tutup = true, blur = 0 }) => {
   const t = T - mulai;
   const opsi = { extrapolateLeft: "clamp" as const, extrapolateRight: "clamp" as const };
   const z = interpolate(t, [0, dur], zoom, opsi);
@@ -414,8 +415,13 @@ export const Foto: React.FC<{
     <AbsoluteFill style={{ overflow: "hidden", background: C.navy }}>
       <AbsoluteFill style={{ transform: `scale(${z}) translate(${gx}px, ${gy}px)` }}>
         <Img
-          src={staticFile(`photos/${file}`)}
-          style={{ width: "100%", height: "100%", objectFit: "cover", filter: gradeFootage }}
+          src={staticFile(file)}
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            filter: `${gradeFootage}${blur ? ` blur(${blur}px)` : ""}`,
+          }}
         />
       </AbsoluteFill>
       {tutup ? <TutupFootage /> : null}

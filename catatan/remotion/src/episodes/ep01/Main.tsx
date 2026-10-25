@@ -12,16 +12,20 @@ import {
   Stethoscope,
   Wallet,
 } from "lucide-react";
-import "./fonts";
-import { AMAN, C, CardBG, F, KataDemiKata, Kartu, Mark, Rise, SceneFX, glass, ramp, springAt } from "./lib";
-import { Isi, KartuFakta, KartuMitos, Pil } from "./scenes/dasar";
-import { AdeganFoto, AdeganKlip } from "./scenes/Footage";
-import { Hook1, Hook2 } from "./scenes/Hook";
-import { Wow3D } from "./scenes/Wow3D";
-import { CTA, Komentar, Penutup } from "./scenes/Penutup";
-import { Captions } from "./Captions";
-import { kapan } from "./vo";
+import "../../fonts";
+import { AMAN, C, CardBG, F, KataDemiKata, Kartu, Mark, Rise, SceneFX, glass, ramp, springAt } from "../../lib";
+import { Isi, KartuFakta, KartuMitos, Pil } from "../../scenes/dasar";
+import { AdeganFoto, AdeganKlip } from "../../scenes/Footage";
+import { Hook1, Hook2 } from "./Hook";
+import { Wow3D } from "./Wow3D";
+import { Penutup } from "./Penutup";
+import { KartuCTA, KartuKomentar } from "../../scenes/akhir";
+import { Captions } from "../../Captions";
+import { buatVo } from "../../vo";
+import kataJson from "./words.json";
 import timeline from "./timeline.json";
+
+const { KATA, kapan } = buatVo(kataJson);
 
 const IK = { size: 40, strokeWidth: 2.4 };
 
@@ -192,7 +196,7 @@ const Bukti: React.FC<{ T: number; mulai: number; selesai: number }> = ({ T, mul
       T={T}
       mulai={mulai}
       selesai={selesai}
-      clip="klip-02.mp4"
+      clip="ep01/clips/klip-02.mp4"
       srcStart={0.2}
       rate={0.9}
       zoom={[1.04, 1.12]}
@@ -281,7 +285,7 @@ const isiAdegan = (id: string, T: number, s: Adegan): React.ReactNode => {
           T={T}
           mulai={s.mulai}
           selesai={s.selesai}
-          file="foto-01.jpg"
+          file="ep01/photos/foto-01.jpg"
           zoom={[1.55, 1.8]}
           geser={[300, 286]}
           naik={[-320, -300]}
@@ -324,7 +328,7 @@ const isiAdegan = (id: string, T: number, s: Adegan): React.ReactNode => {
           T={T}
           mulai={s.mulai}
           selesai={s.selesai}
-          file="foto-02.jpg"
+          file="ep01/photos/foto-02.jpg"
           zoom={[1.08, 1.2]}
           geser={[0, -26]}
         >
@@ -367,7 +371,7 @@ const isiAdegan = (id: string, T: number, s: Adegan): React.ReactNode => {
           T={T}
           mulai={s.mulai}
           selesai={s.selesai}
-          clip="klip-02.mp4"
+          clip="ep01/clips/klip-02.mp4"
           srcStart={2.3}
           rate={0.95}
           zoom={[1.06, 1.14]}
@@ -399,15 +403,36 @@ const isiAdegan = (id: string, T: number, s: Adegan): React.ReactNode => {
     case "penutup":
       return <Penutup T={T} mulai={s.mulai} selesai={s.selesai} />;
     case "komentar":
-      return <Komentar T={T} mulai={s.mulai} />;
+      return (
+        <KartuKomentar
+          T={T}
+          mulai={s.mulai}
+          teks="Menurut lo, apa yang paling bikin orang tua tunggal nggak nagih?"
+        />
+      );
     case "cta":
-      return <CTA T={T} mulai={s.mulai} selesai={s.selesai} />;
+      return (
+        <KartuCTA
+          T={T}
+          mulai={s.mulai}
+          selesai={s.selesai}
+          judul="Kirim ke yang lagi butuh"
+          atSimpan={kapan("Simpan, kirim")}
+          atKirim={kapan("kirim ke yang")}
+          atFollow={kapan("follow akun")}
+          sumber={[
+            "UU 1/1974 Pasal 41 · UU Perlindungan Anak Pasal 26",
+            "SEMA 4/2016 · KHI Pasal 156 · SEMA 2/2019",
+            "PP 45/1990 · Perma 1/2014 · Mahkamah Agung",
+          ]}
+        />
+      );
     default:
       return null;
   }
 };
 
-export const Main: React.FC = () => {
+export const Ep01: React.FC = () => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
   const T = frame / fps;
@@ -428,9 +453,9 @@ export const Main: React.FC = () => {
         </Sequence>
       ))}
 
-      <Captions T={T} />
+      <Captions T={T} kata={KATA} />
 
-      <Audio src={staticFile("voice_over.mp3")} />
+      <Audio src={staticFile("ep01/voice_over.mp3")} />
     </AbsoluteFill>
   );
 };

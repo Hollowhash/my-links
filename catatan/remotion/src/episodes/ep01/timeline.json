@@ -3,6 +3,7 @@
  "fps": 30,
  "lebar": 1080,
  "tinggi": 1920,
+ "slug": "ep01",
  "vo": "voice_over.mp3",
  "scenes": [
   {
@@ -103,7 +104,7 @@
  ],
  "music": {
   "tension_end": 11.93,
-  "groove_end": 45.71,
+  "groove_end": 64.03,
   "break_end": 72.37
  },
  "sfx": [

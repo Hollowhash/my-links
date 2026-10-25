@@ -165,6 +165,7 @@ if __name__ == "__main__":
     tl = json.load(open(sys.argv[1]))
     m = tl["music"]
     musik = buat_musik(tl["total"], m["tension_end"], m["groove_end"], m["break_end"])
-    tulis("music_raw.wav", musik)
+    slug = tl.get("slug", "ep")
+    tulis(f"music_{slug}.wav", musik)
     tulis("swoosh.wav", swoosh())
-    print(f"music_raw.wav ({tl['total']:.1f} detik) dan swoosh.wav siap")
+    print(f"music_{slug}.wav ({tl['total']:.1f} detik) dan swoosh.wav siap")

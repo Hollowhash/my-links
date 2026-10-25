@@ -3,7 +3,13 @@
 // Pakai: node tools/buat-timeline.mjs
 import fs from "node:fs";
 
-const { durasi, words } = JSON.parse(fs.readFileSync("remotion/src/words.json", "utf8"));
+const slug = process.argv[2];
+if (!slug) {
+  console.error("Pakai: node tools/buat-timeline.mjs <slug>   (contoh: ep02)");
+  process.exit(1);
+}
+const dir = `remotion/src/episodes/${slug}`;
+const { durasi, words } = JSON.parse(fs.readFileSync(`${dir}/words.json`, "utf8"));
 
 const polos = (s) => s.toLowerCase().replace(/[^a-z0-9-]/g, "");
 
@@ -22,27 +28,7 @@ const cari = (frasa) => {
   throw new Error(`Frasa tidak ketemu di naskah: "${frasa}"`);
 };
 
-const daftar = [
-  ["hook1", null],
-  ["hook2", "Banyak yang diam"],
-  ["judul4", "Kita lurusin"],
-  ["mitos1", "Mitos satu"],
-  ["fakta1", "Faktanya undang-undang"],
-  ["fakta1b", "sesuai kemampuannya"],
-  ["mitos2", "Mitos dua"],
-  ["fakta2", "Faktanya hakim"],
-  ["foto2", "Kalau putusannya"],
-  ["mitos3", "Mitos tiga"],
-  ["wow3d", "Faktanya Mahkamah"],
-  ["bukti", "Simpan bukti"],
-  ["mitos4", "Mitos empat"],
-  ["klip2", "Faktanya lo"],
-  ["eksekusi", "Ujungnya bisa"],
-  ["posbakum", "Yang nggak mampu"],
-  ["penutup", "Nagih nafkah"],
-  ["komentar", "Menurut lo"],
-  ["cta", "Simpan kirim"],
-];
+const daftar = JSON.parse(fs.readFileSync(`${dir}/adegan.json`, "utf8"));
 
 const ekor = 1.2;
 const total = Number((durasi + ekor).toFixed(2));
@@ -61,19 +47,21 @@ const timeline = {
   fps: 30,
   lebar: 1080,
   tinggi: 1920,
+  slug,
   vo: "voice_over.mp3",
   scenes,
+  // Bagian musik: tegang di awal, beat untuk penjelasan, tenang di penutup.
   music: {
-    tension_end: scenes.find((s) => s.id === "judul4").mulai,
-    groove_end: scenes.find((s) => s.id === "wow3d").mulai,
-    break_end: scenes.find((s) => s.id === "penutup").mulai,
+    tension_end: scenes[2].mulai,
+    groove_end: scenes[Math.max(0, scenes.length - 5)].mulai,
+    break_end: scenes[scenes.length - 3].mulai,
   },
   // Swoosh tipis 0,2 detik sebelum tiap pergantian scene.
   sfx: scenes.slice(1).map((s) => ({ jenis: "swoosh", at: Number((s.mulai - 0.2).toFixed(2)) })),
   ambience: [{ jenis: "ruang", dari: 0, sampai: total, volume: 0.05 }],
 };
 
-fs.writeFileSync("remotion/src/timeline.json", JSON.stringify(timeline, null, 1) + "\n");
+fs.writeFileSync(`${dir}/timeline.json`, JSON.stringify(timeline, null, 1) + "\n");
 console.log(`total ${total} detik, ${scenes.length} scene`);
 for (const s of scenes) {
   console.log(`  ${s.id.padEnd(10)} ${s.mulai.toFixed(2)} - ${s.selesai.toFixed(2)}  (${(s.selesai - s.mulai).toFixed(2)}s)`);

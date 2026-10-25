@@ -1,62 +1,15 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
 import { Bookmark, MessageCircle, Send, UserPlus } from "lucide-react";
-import { AMAN, C, CardBG, F, KataDemiKata, Kartu, Mark, Rise, glass, ramp, springAt } from "../lib";
+import { C, CardBG, F, KataDemiKata, Kartu, Rise, glass, ramp, springAt } from "../lib";
 import { Isi } from "./dasar";
-import { AdeganKlip } from "./Footage";
-import { kapan } from "../vo";
 
-/** Kalimat pembela penonton, di atas wajah ibu yang sudah tegar. */
-export const Penutup: React.FC<{ T: number; mulai: number; selesai: number }> = ({
-  T,
-  mulai,
-  selesai,
-}) => (
-  <AdeganKlip
-    T={T}
-    mulai={mulai}
-    selesai={selesai}
-    clip="klip-01.mp4"
-    srcStart={5.3}
-    rate={0.85}
-    zoom={[1.12, 1.02]}
-  >
-    <AbsoluteFill style={{ padding: `${AMAN.atas + 10}px 82px 0` }}>
-      <KataDemiKata
-        T={T}
-        at={mulai + 0.1}
-        teks="Nagih nafkah anak bukan ngemis."
-        style={{
-          fontFamily: F.sans,
-          fontWeight: 800,
-          fontSize: 86,
-          lineHeight: 1.06,
-          color: C.putih,
-          letterSpacing: "-0.02em",
-          textShadow: "0 10px 36px rgba(30,38,56,0.6)",
-        }}
-      />
-      <div
-        style={{
-          marginTop: 34,
-          fontFamily: F.sans,
-          fontWeight: 800,
-          fontSize: 86,
-          lineHeight: 1.06,
-          color: C.aksen,
-          letterSpacing: "-0.02em",
-        }}
-      >
-        <Mark T={T} at={kapan("Itu hak anak lo")}>
-          Itu hak anak lo.
-        </Mark>
-      </div>
-    </AbsoluteFill>
-  </AdeganKlip>
-);
-
-/** Pertanyaan untuk kolom komentar. */
-export const Komentar: React.FC<{ T: number; mulai: number }> = ({ T, mulai }) => (
+/** Kartu pertanyaan untuk kolom komentar. */
+export const KartuKomentar: React.FC<{
+  T: number;
+  mulai: number;
+  teks: string;
+}> = ({ T, mulai, teks }) => (
   <AbsoluteFill>
     <CardBG />
     <Isi>
@@ -79,7 +32,7 @@ export const Komentar: React.FC<{ T: number; mulai: number }> = ({ T, mulai }) =
         <KataDemiKata
           T={T}
           at={mulai + 0.25}
-          teks="Menurut lo, apa yang paling bikin orang tua tunggal nggak nagih?"
+          teks={teks}
           jeda={0.055}
           style={{
             fontFamily: F.sans,
@@ -133,26 +86,22 @@ const Tombol: React.FC<{ T: number; at: number; ikon: React.ReactNode; teks: str
       }}
     >
       {ikon}
-      <div
-        style={{
-          fontFamily: F.sans,
-          fontWeight: 800,
-          fontSize: 34,
-          color: C.navy,
-        }}
-      >
-        {teks}
-      </div>
+      <div style={{ fontFamily: F.sans, fontWeight: 800, fontSize: 34, color: C.navy }}>{teks}</div>
     </div>
   );
 };
 
 /** Tombol simpan, kirim, follow, lalu kartu sumber. */
-export const CTA: React.FC<{ T: number; mulai: number; selesai: number }> = ({
-  T,
-  mulai,
-  selesai,
-}) => (
+export const KartuCTA: React.FC<{
+  T: number;
+  mulai: number;
+  selesai: number;
+  judul: string;
+  atSimpan: number;
+  atKirim: number;
+  atFollow: number;
+  sumber: string[];
+}> = ({ T, mulai, selesai, judul, atSimpan, atKirim, atFollow, sumber }) => (
   <AbsoluteFill>
     <CardBG />
     <Isi>
@@ -167,12 +116,12 @@ export const CTA: React.FC<{ T: number; mulai: number; selesai: number }> = ({
             letterSpacing: "-0.015em",
           }}
         >
-          Kirim ke yang lagi butuh
+          {judul}
         </div>
         <div style={{ display: "flex", gap: 20 }}>
-          <Tombol T={T} at={kapan("Simpan, kirim")} ikon={<Bookmark size={54} strokeWidth={2.3} />} teks="Simpan" />
-          <Tombol T={T} at={kapan("kirim ke yang")} ikon={<Send size={54} strokeWidth={2.3} />} teks="Kirim" />
-          <Tombol T={T} at={kapan("follow akun")} ikon={<UserPlus size={54} strokeWidth={2.3} />} teks="Follow" />
+          <Tombol T={T} at={atSimpan} ikon={<Bookmark size={54} strokeWidth={2.3} />} teks="Simpan" />
+          <Tombol T={T} at={atKirim} ikon={<Send size={54} strokeWidth={2.3} />} teks="Kirim" />
+          <Tombol T={T} at={atFollow} ikon={<UserPlus size={54} strokeWidth={2.3} />} teks="Follow" />
         </div>
       </Kartu>
 
@@ -198,9 +147,9 @@ export const CTA: React.FC<{ T: number; mulai: number; selesai: number }> = ({
           sumber
         </div>
         <div style={{ fontFamily: F.mono, fontWeight: 500, fontSize: 27, lineHeight: 1.5, color: C.navy }}>
-          UU 1/1974 Pasal 41 · UU Perlindungan Anak Pasal 26 · SEMA 4/2016 · KHI Pasal 156
-          <br />
-          SEMA 2/2019 · PP 45/1990 · Perma 1/2014 · Mahkamah Agung
+          {sumber.map((b, i) => (
+            <div key={i}>{b}</div>
+          ))}
         </div>
       </div>
     </Isi>

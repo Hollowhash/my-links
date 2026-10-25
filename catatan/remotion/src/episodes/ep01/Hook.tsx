@@ -1,7 +1,7 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
-import { AMAN, C, F, KataDemiKata, Mark, glass, ramp } from "../lib";
-import { AdeganFoto, AdeganKlip } from "./Footage";
+import { AMAN, C, F, KataDemiKata, Mark, glass, ramp } from "../../lib";
+import { AdeganFoto, AdeganKlip } from "../../scenes/Footage";
 
 /**
  * Pembuka: foto ibu menghitung uang, kartu judul sudah penuh di frame 0
@@ -16,7 +16,7 @@ export const Hook1: React.FC<{ T: number; mulai: number; selesai: number }> = ({
     T={T}
     mulai={mulai}
     selesai={selesai}
-    file="foto-01.jpg"
+    file="ep01/photos/foto-01.jpg"
     zoom={[1.03, 1.13]}
     geser={[0, -18]}
     naik={[0, 10]}
@@ -66,7 +66,7 @@ export const Hook2: React.FC<{ T: number; mulai: number; selesai: number; tegasA
     T={T}
     mulai={mulai}
     selesai={selesai}
-    clip="klip-01.mp4"
+    clip="ep01/clips/klip-01.mp4"
     srcStart={1.2}
     rate={0.9}
     zoom={[1.1, 1.02]}

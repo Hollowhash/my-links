@@ -1,14 +1,10 @@
 import React from "react";
 import { AbsoluteFill } from "remotion";
 import { AMAN, C, F, ramp } from "./lib";
-import kataJson from "./words.json";
-
-type Kata = { word: string; start: number; end: number };
-
-const semua = (kataJson as { words: Kata[] }).words;
+import type { Kata } from "./vo";
 
 /** Kelompokkan kata jadi baris pendek: berhenti di tanda baca, jeda, atau 5 kata. */
-const buatBaris = () => {
+const buatBaris = (semua: Kata[]) => {
   const baris: Kata[][] = [];
   let sekarang: Kata[] = [];
   for (let i = 0; i < semua.length; i++) {
@@ -25,10 +21,10 @@ const buatBaris = () => {
   return baris;
 };
 
-const BARIS = buatBaris();
 
 /** Caption karaoke: baris muncul utuh, kata yang sedang diucapkan menyala. */
-export const Captions: React.FC<{ T: number }> = ({ T }) => {
+export const Captions: React.FC<{ T: number; kata: Kata[] }> = ({ T, kata }) => {
+  const BARIS = React.useMemo(() => buatBaris(kata), [kata]);
   const aktif = BARIS.find((b, i) => {
     const mulai = b[0].start - 0.12;
     const berikut = BARIS[i + 1];

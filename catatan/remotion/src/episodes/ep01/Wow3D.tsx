@@ -2,7 +2,7 @@ import React from "react";
 import { AbsoluteFill, useVideoConfig } from "remotion";
 import { ThreeCanvas } from "@remotion/three";
 import { useThree } from "@react-three/fiber";
-import { AMAN, C, CardBG, F, Mark, Rise, Sumber, glass, ramp } from "../lib";
+import { AMAN, C, CardBG, F, Mark, Rise, Sumber, glass, ramp } from "../../lib";
 
 const AKSEN = "#D9482B";
 const PUTIH = "#FBFCFE";
