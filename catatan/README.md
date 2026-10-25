@@ -27,7 +27,13 @@ tools/clip_grid.sh  grid frame klip untuk mencari momen dan tulisan
 out/                hasil render
 ```
 
-Episode yang sudah jadi: `ep01` (nafkah anak setelah cerai), `ep02` (adopsi resmi).
+Episode yang sudah jadi:
+
+| slug | isi | momen 3D |
+|---|---|---|
+| `ep01` | nafkah anak setelah cerai | kalender mundur, bukti biaya menumpuk |
+| `ep02` | adopsi anak secara resmi | stempel penetapan mendarat ke berkas |
+| `ep03` | kuota kerja disabilitas | seratus karyawan berbaris, yang masuk kuota menyala |
 
 ## Urutan kerja satu episode
 
@@ -69,4 +75,9 @@ cd ../out && ffmpeg -i ep02_silent.mp4 -i mix-ep02.wav -map 0:v -map 1:a \
   tangan: pakai `kapan("potongan kalimat")` supaya terkunci ke voice over.
 - Kartu kaca memakai salinan latar yang diburamkan, bukan `backdrop-filter`,
   supaya tidak kena bug teks berbayang di Chrome headless.
+- Jangan menganimasikan angka yang punya arti hukum, misalnya nomor atau tahun
+  undang-undang. Di tengah animasi angkanya terbaca salah kalau ada yang
+  menyimpan gambar layar. Nomor pasal dan tahun ditulis tetap.
+- Huruf yang dieja satu-satu di naskah (contoh "B U M N") otomatis digabung
+  jadi satu kata di caption.
 - Semua klaim harus punya sumber dari paket naskah, bukan karangan.

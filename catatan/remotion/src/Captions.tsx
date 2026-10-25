@@ -3,8 +3,40 @@ import { AbsoluteFill } from "remotion";
 import { AMAN, C, F, ramp } from "./lib";
 import type { Kata } from "./vo";
 
+/**
+ * Gabungkan huruf yang dieja satu-satu jadi satu kata.
+ * Contoh di naskah: "B U M N" dibaca per huruf, di layar jadi "BUMN".
+ */
+const gabungEjaan = (semua: Kata[]): Kata[] => {
+  const hasil: Kata[] = [];
+  let i = 0;
+  while (i < semua.length) {
+    const huruf = semua[i].word.replace(/[^A-Za-z]/g, "");
+    if (huruf.length === 1) {
+      let j = i;
+      let kumpul = "";
+      while (j < semua.length) {
+        const h = semua[j].word.replace(/[^A-Za-z]/g, "");
+        if (h.length !== 1) break;
+        kumpul += h.toUpperCase();
+        j++;
+      }
+      if (kumpul.length >= 2) {
+        const ekor = semua[j - 1].word.replace(/[A-Za-z]/g, "");
+        hasil.push({ word: kumpul + ekor, start: semua[i].start, end: semua[j - 1].end });
+        i = j;
+        continue;
+      }
+    }
+    hasil.push(semua[i]);
+    i++;
+  }
+  return hasil;
+};
+
 /** Kelompokkan kata jadi baris pendek: berhenti di tanda baca, jeda, atau 5 kata. */
-const buatBaris = (semua: Kata[]) => {
+const buatBaris = (asli: Kata[]) => {
+  const semua = gabungEjaan(asli);
   const baris: Kata[][] = [];
   let sekarang: Kata[] = [];
   for (let i = 0; i < semua.length; i++) {

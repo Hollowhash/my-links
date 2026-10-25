@@ -1,0 +1,935 @@
+{
+ "durasi": 83.487375,
+ "words": [
+  {
+   "word": "Lamar",
+   "start": 0,
+   "end": 0.52
+  },
+  {
+   "word": "kerja",
+   "start": 0.52,
+   "end": 0.82
+  },
+  {
+   "word": "puluhan",
+   "start": 0.82,
+   "end": 1.18
+  },
+  {
+   "word": "kali,",
+   "start": 1.18,
+   "end": 1.717
+  },
+  {
+   "word": "ditolak",
+   "start": 1.717,
+   "end": 3.08
+  },
+  {
+   "word": "terus,",
+   "start": 3.08,
+   "end": 3.664
+  },
+  {
+   "word": "cuma",
+   "start": 3.72,
+   "end": 4.32
+  },
+  {
+   "word": "karena",
+   "start": 4.32,
+   "end": 4.56
+  },
+  {
+   "word": "pakai",
+   "start": 4.56,
+   "end": 4.78
+  },
+  {
+   "word": "kursi",
+   "start": 4.78,
+   "end": 5.14
+  },
+  {
+   "word": "roda,",
+   "start": 5.14,
+   "end": 5.427
+  },
+  {
+   "word": "atau",
+   "start": 5.427,
+   "end": 6.16
+  },
+  {
+   "word": "Tuli?",
+   "start": 6.16,
+   "end": 7.294
+  },
+  {
+   "word": "Lo",
+   "start": 7.294,
+   "end": 7.46
+  },
+  {
+   "word": "perlu",
+   "start": 7.46,
+   "end": 7.716
+  },
+  {
+   "word": "tahu",
+   "start": 7.716,
+   "end": 7.92
+  },
+  {
+   "word": "ini.",
+   "start": 7.92,
+   "end": 8.66
+  },
+  {
+   "word": "Ada",
+   "start": 8.66,
+   "end": 8.88
+  },
+  {
+   "word": "aturan",
+   "start": 8.88,
+   "end": 9.2
+  },
+  {
+   "word": "yang",
+   "start": 9.2,
+   "end": 9.46
+  },
+  {
+   "word": "wajib",
+   "start": 9.46,
+   "end": 9.733
+  },
+  {
+   "word": "dijalankan",
+   "start": 9.733,
+   "end": 10.278
+  },
+  {
+   "word": "pemberi",
+   "start": 10.278,
+   "end": 10.66
+  },
+  {
+   "word": "kerja.",
+   "start": 10.66,
+   "end": 11.018
+  },
+  {
+   "word": "Semuanya",
+   "start": 11.332,
+   "end": 11.963
+  },
+  {
+   "word": "diatur",
+   "start": 11.963,
+   "end": 12.412
+  },
+  {
+   "word": "di",
+   "start": 12.412,
+   "end": 12.521
+  },
+  {
+   "word": "undang-undang",
+   "start": 12.521,
+   "end": 13.179
+  },
+  {
+   "word": "penyandang",
+   "start": 13.179,
+   "end": 13.727
+  },
+  {
+   "word": "disabilitas",
+   "start": 13.727,
+   "end": 14.331
+  },
+  {
+   "word": "tahun",
+   "start": 14.331,
+   "end": 14.605
+  },
+  {
+   "word": "dua",
+   "start": 14.605,
+   "end": 14.769
+  },
+  {
+   "word": "ribu",
+   "start": 14.769,
+   "end": 14.988
+  },
+  {
+   "word": "enam",
+   "start": 14.988,
+   "end": 15.208
+  },
+  {
+   "word": "belas.",
+   "start": 15.208,
+   "end": 15.947
+  },
+  {
+   "word": "Cek",
+   "start": 15.947,
+   "end": 16.112
+  },
+  {
+   "word": "lima",
+   "start": 16.112,
+   "end": 16.363
+  },
+  {
+   "word": "hal",
+   "start": 16.363,
+   "end": 16.552
+  },
+  {
+   "word": "ini.",
+   "start": 16.552,
+   "end": 17.312
+  },
+  {
+   "word": "Satu.",
+   "start": 17.312,
+   "end": 17.996
+  },
+  {
+   "word": "Kuota.",
+   "start": 17.996,
+   "end": 18.872
+  },
+  {
+   "word": "Pemerintah,",
+   "start": 18.872,
+   "end": 19.694
+  },
+  {
+   "word": "B",
+   "start": 19.694,
+   "end": 19.858
+  },
+  {
+   "word": "U",
+   "start": 19.858,
+   "end": 20.023
+  },
+  {
+   "word": "M",
+   "start": 20.023,
+   "end": 20.187
+  },
+  {
+   "word": "N,",
+   "start": 20.187,
+   "end": 20.352
+  },
+  {
+   "word": "dan",
+   "start": 20.352,
+   "end": 20.572
+  },
+  {
+   "word": "B",
+   "start": 20.572,
+   "end": 20.787
+  },
+  {
+   "word": "U",
+   "start": 20.787,
+   "end": 21.002
+  },
+  {
+   "word": "M",
+   "start": 21.002,
+   "end": 21.217
+  },
+  {
+   "word": "D",
+   "start": 21.217,
+   "end": 21.432
+  },
+  {
+   "word": "wajib",
+   "start": 21.432,
+   "end": 21.672
+  },
+  {
+   "word": "mempekerjakan",
+   "start": 21.672,
+   "end": 22.432
+  },
+  {
+   "word": "paling",
+   "start": 22.432,
+   "end": 22.812
+  },
+  {
+   "word": "sedikit",
+   "start": 22.812,
+   "end": 23.435
+  },
+  {
+   "word": "dua",
+   "start": 23.435,
+   "end": 23.61
+  },
+  {
+   "word": "persen",
+   "start": 23.61,
+   "end": 23.96
+  },
+  {
+   "word": "penyandang",
+   "start": 23.96,
+   "end": 24.543
+  },
+  {
+   "word": "disabilitas.",
+   "start": 24.543,
+   "end": 25.629
+  },
+  {
+   "word": "Perusahaan",
+   "start": 25.629,
+   "end": 26.212
+  },
+  {
+   "word": "swasta,",
+   "start": 26.212,
+   "end": 26.763
+  },
+  {
+   "word": "paling",
+   "start": 26.763,
+   "end": 27.049
+  },
+  {
+   "word": "sedikit",
+   "start": 27.049,
+   "end": 27.383
+  },
+  {
+   "word": "satu",
+   "start": 27.383,
+   "end": 27.655
+  },
+  {
+   "word": "persen.",
+   "start": 27.655,
+   "end": 28.563
+  },
+  {
+   "word": "Artinya,",
+   "start": 28.563,
+   "end": 29.423
+  },
+  {
+   "word": "kantor",
+   "start": 29.423,
+   "end": 29.683
+  },
+  {
+   "word": "dengan",
+   "start": 29.683,
+   "end": 29.983
+  },
+  {
+   "word": "seratus",
+   "start": 29.983,
+   "end": 30.421
+  },
+  {
+   "word": "karyawan,",
+   "start": 30.421,
+   "end": 30.923
+  },
+  {
+   "word": "minimal",
+   "start": 30.923,
+   "end": 31.543
+  },
+  {
+   "word": "satu",
+   "start": 31.543,
+   "end": 32.043
+  },
+  {
+   "word": "orang",
+   "start": 32.043,
+   "end": 32.354
+  },
+  {
+   "word": "disabilitas.",
+   "start": 32.354,
+   "end": 33.524
+  },
+  {
+   "word": "Dua.",
+   "start": 33.524,
+   "end": 33.711
+  },
+  {
+   "word": "Tanpa",
+   "start": 34.059,
+   "end": 34.414
+  },
+  {
+   "word": "diskriminasi.",
+   "start": 34.414,
+   "end": 35.742
+  },
+  {
+   "word": "Hak",
+   "start": 35.742,
+   "end": 35.939
+  },
+  {
+   "word": "dapat",
+   "start": 35.939,
+   "end": 36.261
+  },
+  {
+   "word": "pekerjaan",
+   "start": 36.261,
+   "end": 36.839
+  },
+  {
+   "word": "dijamin",
+   "start": 36.839,
+   "end": 37.399
+  },
+  {
+   "word": "tanpa",
+   "start": 37.399,
+   "end": 37.71
+  },
+  {
+   "word": "diskriminasi,",
+   "start": 37.71,
+   "end": 38.753
+  },
+  {
+   "word": "di",
+   "start": 38.753,
+   "end": 38.877
+  },
+  {
+   "word": "pemerintah",
+   "start": 38.877,
+   "end": 39.499
+  },
+  {
+   "word": "maupun",
+   "start": 39.499,
+   "end": 39.918
+  },
+  {
+   "word": "swasta.",
+   "start": 39.918,
+   "end": 40.682
+  },
+  {
+   "word": "Tiga.",
+   "start": 40.682,
+   "end": 41.3
+  },
+  {
+   "word": "Upah",
+   "start": 41.3,
+   "end": 41.579
+  },
+  {
+   "word": "sama.",
+   "start": 41.579,
+   "end": 42.044
+  },
+  {
+   "word": "Kerjaan",
+   "start": 42.483,
+   "end": 43.023
+  },
+  {
+   "word": "dan",
+   "start": 43.023,
+   "end": 43.143
+  },
+  {
+   "word": "tanggung",
+   "start": 43.143,
+   "end": 43.463
+  },
+  {
+   "word": "jawabnya",
+   "start": 43.463,
+   "end": 43.783
+  },
+  {
+   "word": "sama,",
+   "start": 43.783,
+   "end": 44.5
+  },
+  {
+   "word": "upahnya",
+   "start": 44.5,
+   "end": 45.243
+  },
+  {
+   "word": "wajib",
+   "start": 45.243,
+   "end": 45.523
+  },
+  {
+   "word": "sama.",
+   "start": 45.523,
+   "end": 46.157
+  },
+  {
+   "word": "Empat.",
+   "start": 46.157,
+   "end": 46.823
+  },
+  {
+   "word": "Akomodasi",
+   "start": 46.823,
+   "end": 47.383
+  },
+  {
+   "word": "yang",
+   "start": 47.383,
+   "end": 47.623
+  },
+  {
+   "word": "layak.",
+   "start": 47.623,
+   "end": 47.829
+  },
+  {
+   "word": "Pemberi",
+   "start": 47.829,
+   "end": 48.623
+  },
+  {
+   "word": "kerja",
+   "start": 48.623,
+   "end": 49.043
+  },
+  {
+   "word": "wajib",
+   "start": 49.043,
+   "end": 49.361
+  },
+  {
+   "word": "menyediakan",
+   "start": 49.361,
+   "end": 50.063
+  },
+  {
+   "word": "penyesuaian,",
+   "start": 50.063,
+   "end": 50.963
+  },
+  {
+   "word": "misalnya",
+   "start": 50.963,
+   "end": 51.423
+  },
+  {
+   "word": "jalur",
+   "start": 51.423,
+   "end": 51.808
+  },
+  {
+   "word": "kursi",
+   "start": 51.808,
+   "end": 52.194
+  },
+  {
+   "word": "roda",
+   "start": 52.194,
+   "end": 52.503
+  },
+  {
+   "word": "atau",
+   "start": 52.503,
+   "end": 53.063
+  },
+  {
+   "word": "aplikasi",
+   "start": 53.063,
+   "end": 53.479
+  },
+  {
+   "word": "pembaca",
+   "start": 53.479,
+   "end": 53.843
+  },
+  {
+   "word": "layar,",
+   "start": 53.843,
+   "end": 54.248
+  },
+  {
+   "word": "plus",
+   "start": 54.566,
+   "end": 54.966
+  },
+  {
+   "word": "jalur",
+   "start": 54.966,
+   "end": 55.346
+  },
+  {
+   "word": "pengaduan",
+   "start": 55.346,
+   "end": 55.966
+  },
+  {
+   "word": "kalau",
+   "start": 55.966,
+   "end": 56.256
+  },
+  {
+   "word": "hak",
+   "start": 56.256,
+   "end": 56.43
+  },
+  {
+   "word": "lo",
+   "start": 56.43,
+   "end": 56.546
+  },
+  {
+   "word": "nggak",
+   "start": 56.546,
+   "end": 56.836
+  },
+  {
+   "word": "dipenuhi.",
+   "start": 56.836,
+   "end": 57.606
+  },
+  {
+   "word": "Lima.",
+   "start": 57.606,
+   "end": 58.386
+  },
+  {
+   "word": "Unit",
+   "start": 58.386,
+   "end": 58.586
+  },
+  {
+   "word": "Layanan",
+   "start": 58.586,
+   "end": 58.966
+  },
+  {
+   "word": "Disabilitas.",
+   "start": 58.966,
+   "end": 59.728
+  },
+  {
+   "word": "Pemerintah",
+   "start": 59.728,
+   "end": 60.804
+  },
+  {
+   "word": "daerah",
+   "start": 60.804,
+   "end": 61.219
+  },
+  {
+   "word": "wajib",
+   "start": 61.219,
+   "end": 61.566
+  },
+  {
+   "word": "punya",
+   "start": 61.566,
+   "end": 61.786
+  },
+  {
+   "word": "layanan",
+   "start": 61.786,
+   "end": 62.126
+  },
+  {
+   "word": "ini",
+   "start": 62.126,
+   "end": 62.546
+  },
+  {
+   "word": "di",
+   "start": 62.546,
+   "end": 62.786
+  },
+  {
+   "word": "Dinas",
+   "start": 62.786,
+   "end": 63.006
+  },
+  {
+   "word": "Tenaga",
+   "start": 63.006,
+   "end": 63.286
+  },
+  {
+   "word": "Kerja.",
+   "start": 63.286,
+   "end": 63.618
+  },
+  {
+   "word": "Isinya",
+   "start": 63.96,
+   "end": 64.55
+  },
+  {
+   "word": "info",
+   "start": 64.55,
+   "end": 64.902
+  },
+  {
+   "word": "lowongan,",
+   "start": 64.902,
+   "end": 65.607
+  },
+  {
+   "word": "pelatihan,",
+   "start": 65.607,
+   "end": 66.4
+  },
+  {
+   "word": "sampai",
+   "start": 66.4,
+   "end": 66.8
+  },
+  {
+   "word": "pendampingan",
+   "start": 66.8,
+   "end": 67.38
+  },
+  {
+   "word": "kerja.",
+   "start": 67.38,
+   "end": 67.622
+  },
+  {
+   "word": "Kalau",
+   "start": 67.622,
+   "end": 68.26
+  },
+  {
+   "word": "belum",
+   "start": 68.26,
+   "end": 68.5
+  },
+  {
+   "word": "ketemu,",
+   "start": 68.5,
+   "end": 68.871
+  },
+  {
+   "word": "tanya",
+   "start": 68.871,
+   "end": 69.494
+  },
+  {
+   "word": "langsung",
+   "start": 69.494,
+   "end": 69.989
+  },
+  {
+   "word": "ke",
+   "start": 69.989,
+   "end": 70.113
+  },
+  {
+   "word": "Disnaker.",
+   "start": 70.113,
+   "end": 70.608
+  },
+  {
+   "word": "Lo",
+   "start": 70.608,
+   "end": 71.13
+  },
+  {
+   "word": "nggak",
+   "start": 71.13,
+   "end": 71.44
+  },
+  {
+   "word": "minta",
+   "start": 71.44,
+   "end": 71.82
+  },
+  {
+   "word": "dikasihani.",
+   "start": 71.82,
+   "end": 72.9
+  },
+  {
+   "word": "Lo",
+   "start": 72.9,
+   "end": 73.1
+  },
+  {
+   "word": "minta",
+   "start": 73.1,
+   "end": 73.4
+  },
+  {
+   "word": "kesempatan",
+   "start": 73.4,
+   "end": 73.98
+  },
+  {
+   "word": "yang",
+   "start": 73.98,
+   "end": 74.248
+  },
+  {
+   "word": "sama.",
+   "start": 74.248,
+   "end": 74.515
+  },
+  {
+   "word": "Menurut",
+   "start": 74.905,
+   "end": 75.245
+  },
+  {
+   "word": "lo,",
+   "start": 75.245,
+   "end": 75.396
+  },
+  {
+   "word": "kantor",
+   "start": 75.396,
+   "end": 75.847
+  },
+  {
+   "word": "di",
+   "start": 75.847,
+   "end": 75.998
+  },
+  {
+   "word": "sekitar",
+   "start": 75.998,
+   "end": 76.525
+  },
+  {
+   "word": "lo",
+   "start": 76.525,
+   "end": 76.665
+  },
+  {
+   "word": "udah",
+   "start": 76.665,
+   "end": 76.945
+  },
+  {
+   "word": "ada",
+   "start": 76.945,
+   "end": 77.068
+  },
+  {
+   "word": "karyawan",
+   "start": 77.068,
+   "end": 77.394
+  },
+  {
+   "word": "disabilitasnya",
+   "start": 77.394,
+   "end": 77.966
+  },
+  {
+   "word": "belum?",
+   "start": 77.966,
+   "end": 78.171
+  },
+  {
+   "word": "Tulis",
+   "start": 78.171,
+   "end": 78.805
+  },
+  {
+   "word": "di",
+   "start": 78.805,
+   "end": 78.925
+  },
+  {
+   "word": "komentar.",
+   "start": 78.925,
+   "end": 79.745
+  },
+  {
+   "word": "Simpan,",
+   "start": 79.745,
+   "end": 80.122
+  },
+  {
+   "word": "kirim",
+   "start": 80.122,
+   "end": 80.639
+  },
+  {
+   "word": "ke",
+   "start": 80.639,
+   "end": 80.765
+  },
+  {
+   "word": "teman",
+   "start": 80.765,
+   "end": 81.005
+  },
+  {
+   "word": "atau",
+   "start": 81.005,
+   "end": 81.165
+  },
+  {
+   "word": "saudara",
+   "start": 81.165,
+   "end": 81.445
+  },
+  {
+   "word": "yang",
+   "start": 81.445,
+   "end": 81.665
+  },
+  {
+   "word": "butuh,",
+   "start": 81.665,
+   "end": 82.205
+  },
+  {
+   "word": "dan",
+   "start": 82.205,
+   "end": 82.485
+  },
+  {
+   "word": "follow",
+   "start": 82.485,
+   "end": 82.845
+  },
+  {
+   "word": "akun",
+   "start": 82.845,
+   "end": 83.085
+  },
+  {
+   "word": "ini.",
+   "start": 83.085,
+   "end": 83.437
+  }
+ ]
+}

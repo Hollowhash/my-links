@@ -6,9 +6,7 @@ import {
   AMAN,
   C,
   CardBG,
-  Clip,
   F,
-  Foto,
   KataDemiKata,
   Kartu,
   Mark,
@@ -19,7 +17,8 @@ import {
   ramp,
   springAt,
 } from "../../lib";
-import { Angka, BarisSyarat, GarisWaktu, Kaca, PitaKaca, TeksSapu } from "../../kaca";
+import { Angka, BarisSyarat, GarisWaktu, PitaKaca, TeksSapu } from "../../kaca";
+import { FotoKaca, KlipKaca, judulKaca } from "../../scenes/kacaFootage";
 import { Isi, Pil } from "../../scenes/dasar";
 import { KartuCTA, KartuKomentar } from "../../scenes/akhir";
 import { Captions } from "../../Captions";
@@ -33,88 +32,6 @@ const IK = { size: 40, strokeWidth: 2.4 };
 
 type Adegan = { id: string; mulai: number; selesai: number };
 const SCENES = timeline.scenes as Adegan[];
-
-/** Foto dengan kartu kaca di atasnya. Kacanya memakai salinan foto yang diburamkan. */
-const FotoKaca: React.FC<{
-  T: number;
-  mulai: number;
-  selesai: number;
-  file: string;
-  zoom?: [number, number];
-  geser?: [number, number];
-  naik?: [number, number];
-  kacaY: number;
-  at: number;
-  anak: React.ReactNode;
-}> = ({ T, mulai, selesai, file, zoom, geser, naik, kacaY, at, anak }) => {
-  const dasar = { file, dur: selesai - mulai, T, mulai, zoom, geser, naik };
-  return (
-    <AbsoluteFill>
-      <Foto {...dasar} />
-      <Kaca
-        T={T}
-        at={at}
-        x={82}
-        y={kacaY}
-        lebar={916}
-        latarBuram={<Foto {...dasar} blur={30} />}
-        anak={anak}
-      />
-    </AbsoluteFill>
-  );
-};
-
-/** Klip dengan kartu kaca di atasnya. */
-const KlipKaca: React.FC<{
-  T: number;
-  mulai: number;
-  selesai: number;
-  clip: string;
-  srcStart?: number;
-  rate?: number;
-  zoom?: [number, number];
-  kacaY: number;
-  at: number;
-  anak: React.ReactNode;
-}> = ({ T, mulai, selesai, clip, srcStart, rate, zoom, kacaY, at, anak }) => {
-  const dasar = { clip, srcStart, rate, zoom, dur: selesai - mulai, T, mulai };
-  return (
-    <AbsoluteFill>
-      <Clip {...dasar} />
-      <Kaca
-        T={T}
-        at={at}
-        x={82}
-        y={kacaY}
-        lebar={916}
-        latarBuram={<Clip {...dasar} blur={28} />}
-        anak={anak}
-      />
-    </AbsoluteFill>
-  );
-};
-
-const judulKaca = (teks: string, catatan?: string) => (
-  <>
-    <div
-      style={{
-        fontFamily: F.sans,
-        fontWeight: 800,
-        fontSize: 58,
-        lineHeight: 1.14,
-        color: C.navy,
-        letterSpacing: "-0.015em",
-      }}
-    >
-      {teks}
-    </div>
-    {catatan ? (
-      <div style={{ marginTop: 18, fontFamily: F.mono, fontWeight: 500, fontSize: 28, color: C.kedua }}>
-        {catatan}
-      </div>
-    ) : null}
-  </>
-);
 
 /** Kartu langkah: nomor besar, judul langkah, isi menyusul. */
 const KartuLangkah: React.FC<{
