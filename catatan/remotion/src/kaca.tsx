@@ -90,12 +90,15 @@ export const Angka: React.FC<{
   dari: number;
   sampai: number;
   lama?: number;
+  /** Pakai titik pemisah ribuan, misalnya 16.800. Jangan dipakai untuk tahun. */
+  ribuan?: boolean;
   gaya?: React.CSSProperties;
-}> = ({ T, at, dari, sampai, lama = 0.8, gaya }) => {
+}> = ({ T, at, dari, sampai, lama = 0.8, ribuan = false, gaya }) => {
   const p = ramp(T, at, at + lama);
+  const nilai = Math.round(dari + (sampai - dari) * p);
   return (
     <span style={{ fontVariantNumeric: "tabular-nums", ...gaya }}>
-      {Math.round(dari + (sampai - dari) * p)}
+      {ribuan ? nilai.toLocaleString("id-ID") : nilai}
     </span>
   );
 };
@@ -192,6 +195,7 @@ export const GarisWaktu: React.FC<{
       <div style={{ display: "flex", justifyContent: "space-between", position: "relative" }}>
         {titik.map((t, i) => {
           const m = springAt(T, t.at, 11);
+          const nyala = ramp(T, t.at, t.at + 0.3);
           return (
             <div
               key={i}
@@ -208,10 +212,10 @@ export const GarisWaktu: React.FC<{
                   width: 36,
                   height: 36,
                   borderRadius: "50%",
-                  background: C.aksen,
+                  background: nyala > 0.5 ? C.aksen : "rgba(30,38,56,0.22)",
                   border: "6px solid #FFFFFF",
-                  transform: `scale(${0.3 + m * 0.7})`,
-                  boxShadow: "0 6px 16px rgba(217,72,43,0.35)",
+                  transform: `scale(${0.72 + m * 0.28})`,
+                  boxShadow: nyala > 0.5 ? "0 6px 16px rgba(217,72,43,0.35)" : "none",
                 }}
               />
               <div
@@ -222,7 +226,7 @@ export const GarisWaktu: React.FC<{
                   lineHeight: 1.2,
                   textAlign: "center",
                   color: C.navy,
-                  opacity: ramp(T, t.at, t.at + 0.3),
+                  opacity: 0.4 + nyala * 0.6,
                 }}
               >
                 {t.label}

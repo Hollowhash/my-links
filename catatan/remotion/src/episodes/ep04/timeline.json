@@ -1,0 +1,201 @@
+{
+ "total": 78.29,
+ "fps": 30,
+ "lebar": 1080,
+ "tinggi": 1920,
+ "slug": "ep04",
+ "vo": "voice_over.mp3",
+ "scenes": [
+  {
+   "id": "hook1",
+   "mulai": 0,
+   "selesai": 4.29
+  },
+  {
+   "id": "hook2",
+   "mulai": 4.29,
+   "selesai": 8.82
+  },
+  {
+   "id": "bpu",
+   "mulai": 8.82,
+   "selesai": 14
+  },
+  {
+   "id": "hitung",
+   "mulai": 14,
+   "selesai": 18.76
+  },
+  {
+   "id": "iuran",
+   "mulai": 18.76,
+   "selesai": 21.43
+  },
+  {
+   "id": "jkm",
+   "mulai": 21.43,
+   "selesai": 24.09
+  },
+  {
+   "id": "total",
+   "mulai": 24.09,
+   "selesai": 27.41
+  },
+  {
+   "id": "koin3d",
+   "mulai": 27.41,
+   "selesai": 31.77
+  },
+  {
+   "id": "dapat",
+   "mulai": 31.77,
+   "selesai": 33.11
+  },
+  {
+   "id": "manfaat1",
+   "mulai": 33.11,
+   "selesai": 37.63
+  },
+  {
+   "id": "manfaat2",
+   "mulai": 37.63,
+   "selesai": 42.29
+  },
+  {
+   "id": "beasiswa",
+   "mulai": 42.29,
+   "selesai": 45.76
+  },
+  {
+   "id": "jht",
+   "mulai": 45.76,
+   "selesai": 49.95
+  },
+  {
+   "id": "jht2",
+   "mulai": 49.95,
+   "selesai": 53.17
+  },
+  {
+   "id": "daftar",
+   "mulai": 53.17,
+   "selesai": 57.14
+  },
+  {
+   "id": "naik",
+   "mulai": 57.14,
+   "selesai": 60.18
+  },
+  {
+   "id": "rutin",
+   "mulai": 60.18,
+   "selesai": 63.8
+  },
+  {
+   "id": "penutup",
+   "mulai": 63.8,
+   "selesai": 68.92
+  },
+  {
+   "id": "komentar",
+   "mulai": 68.92,
+   "selesai": 72.88
+  },
+  {
+   "id": "cta",
+   "mulai": 72.88,
+   "selesai": 78.29
+  }
+ ],
+ "music": {
+  "tension_end": 8.82,
+  "groove_end": 57.14,
+  "break_end": 63.8
+ },
+ "sfx": [
+  {
+   "jenis": "swoosh",
+   "at": 4.09
+  },
+  {
+   "jenis": "swoosh",
+   "at": 8.62
+  },
+  {
+   "jenis": "swoosh",
+   "at": 13.8
+  },
+  {
+   "jenis": "swoosh",
+   "at": 18.56
+  },
+  {
+   "jenis": "swoosh",
+   "at": 21.23
+  },
+  {
+   "jenis": "swoosh",
+   "at": 23.89
+  },
+  {
+   "jenis": "swoosh",
+   "at": 27.21
+  },
+  {
+   "jenis": "swoosh",
+   "at": 31.57
+  },
+  {
+   "jenis": "swoosh",
+   "at": 32.91
+  },
+  {
+   "jenis": "swoosh",
+   "at": 37.43
+  },
+  {
+   "jenis": "swoosh",
+   "at": 42.09
+  },
+  {
+   "jenis": "swoosh",
+   "at": 45.56
+  },
+  {
+   "jenis": "swoosh",
+   "at": 49.75
+  },
+  {
+   "jenis": "swoosh",
+   "at": 52.97
+  },
+  {
+   "jenis": "swoosh",
+   "at": 56.94
+  },
+  {
+   "jenis": "swoosh",
+   "at": 59.98
+  },
+  {
+   "jenis": "swoosh",
+   "at": 63.6
+  },
+  {
+   "jenis": "swoosh",
+   "at": 68.72
+  },
+  {
+   "jenis": "swoosh",
+   "at": 72.68
+  }
+ ],
+ "ambience": [
+  {
+   "jenis": "ruang",
+   "dari": 0,
+   "sampai": 78.29,
+   "volume": 0.05
+  }
+ ]
+}

@@ -6,6 +6,10 @@ import { Ep02 } from "./episodes/ep02/Main";
 import timelineEp02 from "./episodes/ep02/timeline.json";
 import { Ep03 } from "./episodes/ep03/Main";
 import timelineEp03 from "./episodes/ep03/timeline.json";
+import { Ep04 } from "./episodes/ep04/Main";
+import timelineEp04 from "./episodes/ep04/timeline.json";
+import { Ep05 } from "./episodes/ep05/Main";
+import timelineEp05 from "./episodes/ep05/timeline.json";
 
 export const RemotionRoot: React.FC = () => (
   <>
@@ -32,6 +36,22 @@ export const RemotionRoot: React.FC = () => (
       height={timelineEp03.tinggi}
       fps={timelineEp03.fps}
       durationInFrames={Math.round(timelineEp03.total * timelineEp03.fps)}
+    />
+    <Composition
+      id="ep04"
+      component={Ep04}
+      width={timelineEp04.lebar}
+      height={timelineEp04.tinggi}
+      fps={timelineEp04.fps}
+      durationInFrames={Math.round(timelineEp04.total * timelineEp04.fps)}
+    />
+    <Composition
+      id="ep05"
+      component={Ep05}
+      width={timelineEp05.lebar}
+      height={timelineEp05.tinggi}
+      fps={timelineEp05.fps}
+      durationInFrames={Math.round(timelineEp05.total * timelineEp05.fps)}
     />
   </>
 );

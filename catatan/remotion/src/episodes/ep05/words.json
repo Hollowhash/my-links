@@ -1,0 +1,960 @@
+{
+ "durasi": 83.487375,
+ "words": [
+  {
+   "word": "Lo",
+   "start": 0,
+   "end": 0.207
+  },
+  {
+   "word": "mau",
+   "start": 0.207,
+   "end": 0.516
+  },
+  {
+   "word": "nikah,",
+   "start": 0.516,
+   "end": 1.44
+  },
+  {
+   "word": "atau",
+   "start": 1.44,
+   "end": 1.788
+  },
+  {
+   "word": "udah",
+   "start": 1.788,
+   "end": 2.063
+  },
+  {
+   "word": "nikah.",
+   "start": 2.063,
+   "end": 2.406
+  },
+  {
+   "word": "Terus",
+   "start": 3.22,
+   "end": 3.56
+  },
+  {
+   "word": "ada",
+   "start": 3.56,
+   "end": 3.94
+  },
+  {
+   "word": "yang",
+   "start": 3.94,
+   "end": 4.086
+  },
+  {
+   "word": "nyeletuk,",
+   "start": 4.086,
+   "end": 4.972
+  },
+  {
+   "word": "\"Perjanjian",
+   "start": 4.972,
+   "end": 5.336
+  },
+  {
+   "word": "pisah",
+   "start": 5.336,
+   "end": 5.518
+  },
+  {
+   "word": "harta",
+   "start": 5.518,
+   "end": 5.7
+  },
+  {
+   "word": "itu",
+   "start": 5.7,
+   "end": 5.908
+  },
+  {
+   "word": "tanda",
+   "start": 5.908,
+   "end": 6.254
+  },
+  {
+   "word": "nggak",
+   "start": 6.254,
+   "end": 6.6
+  },
+  {
+   "word": "percaya.\"",
+   "start": 6.6,
+   "end": 7.741
+  },
+  {
+   "word": "Kita",
+   "start": 8.3,
+   "end": 8.668
+  },
+  {
+   "word": "cek",
+   "start": 8.668,
+   "end": 8.92
+  },
+  {
+   "word": "empat",
+   "start": 8.92,
+   "end": 9.14
+  },
+  {
+   "word": "mitosnya.",
+   "start": 9.14,
+   "end": 9.559
+  },
+  {
+   "word": "Mitos",
+   "start": 10.118,
+   "end": 10.438
+  },
+  {
+   "word": "satu.",
+   "start": 10.438,
+   "end": 10.824
+  },
+  {
+   "word": "Kalau",
+   "start": 11.238,
+   "end": 11.478
+  },
+  {
+   "word": "nggak",
+   "start": 11.478,
+   "end": 11.759
+  },
+  {
+   "word": "bikin",
+   "start": 11.759,
+   "end": 12.04
+  },
+  {
+   "word": "perjanjian,",
+   "start": 12.04,
+   "end": 12.818
+  },
+  {
+   "word": "harta",
+   "start": 12.818,
+   "end": 13.158
+  },
+  {
+   "word": "tetap",
+   "start": 13.158,
+   "end": 13.478
+  },
+  {
+   "word": "punya",
+   "start": 13.478,
+   "end": 13.938
+  },
+  {
+   "word": "masing-masing.",
+   "start": 13.938,
+   "end": 14.878
+  },
+  {
+   "word": "Faktanya,",
+   "start": 14.878,
+   "end": 15.798
+  },
+  {
+   "word": "menurut",
+   "start": 15.798,
+   "end": 16.058
+  },
+  {
+   "word": "Undang-Undang",
+   "start": 16.058,
+   "end": 16.538
+  },
+  {
+   "word": "Perkawinan,",
+   "start": 16.538,
+   "end": 17.261
+  },
+  {
+   "word": "harta",
+   "start": 17.378,
+   "end": 17.778
+  },
+  {
+   "word": "yang",
+   "start": 17.778,
+   "end": 17.97
+  },
+  {
+   "word": "didapat",
+   "start": 17.97,
+   "end": 18.308
+  },
+  {
+   "word": "selama",
+   "start": 18.308,
+   "end": 18.597
+  },
+  {
+   "word": "nikah",
+   "start": 18.597,
+   "end": 18.838
+  },
+  {
+   "word": "jadi",
+   "start": 18.838,
+   "end": 19.378
+  },
+  {
+   "word": "harta",
+   "start": 19.378,
+   "end": 19.738
+  },
+  {
+   "word": "bersama.",
+   "start": 19.738,
+   "end": 20.2
+  },
+  {
+   "word": "Yang",
+   "start": 20.588,
+   "end": 20.84
+  },
+  {
+   "word": "tetap",
+   "start": 20.84,
+   "end": 21.069
+  },
+  {
+   "word": "milik",
+   "start": 21.069,
+   "end": 21.298
+  },
+  {
+   "word": "masing-masing",
+   "start": 21.298,
+   "end": 21.848
+  },
+  {
+   "word": "itu",
+   "start": 21.848,
+   "end": 22.308
+  },
+  {
+   "word": "harta",
+   "start": 22.308,
+   "end": 22.881
+  },
+  {
+   "word": "bawaan,",
+   "start": 22.881,
+   "end": 23.568
+  },
+  {
+   "word": "hadiah,",
+   "start": 23.568,
+   "end": 24.188
+  },
+  {
+   "word": "dan",
+   "start": 24.188,
+   "end": 24.379
+  },
+  {
+   "word": "warisan.",
+   "start": 24.379,
+   "end": 25.27
+  },
+  {
+   "word": "Mitos",
+   "start": 25.27,
+   "end": 25.588
+  },
+  {
+   "word": "dua.",
+   "start": 25.588,
+   "end": 26.288
+  },
+  {
+   "word": "Perjanjian",
+   "start": 26.288,
+   "end": 26.688
+  },
+  {
+   "word": "kawin",
+   "start": 26.688,
+   "end": 27.128
+  },
+  {
+   "word": "cuma",
+   "start": 27.128,
+   "end": 27.408
+  },
+  {
+   "word": "bisa",
+   "start": 27.408,
+   "end": 27.628
+  },
+  {
+   "word": "dibuat",
+   "start": 27.628,
+   "end": 28.068
+  },
+  {
+   "word": "sebelum",
+   "start": 28.068,
+   "end": 28.488
+  },
+  {
+   "word": "nikah.",
+   "start": 28.488,
+   "end": 29.248
+  },
+  {
+   "word": "Faktanya,",
+   "start": 29.248,
+   "end": 29.9
+  },
+  {
+   "word": "sejak",
+   "start": 30.068,
+   "end": 30.448
+  },
+  {
+   "word": "putusan",
+   "start": 30.448,
+   "end": 30.834
+  },
+  {
+   "word": "Mahkamah",
+   "start": 30.834,
+   "end": 31.276
+  },
+  {
+   "word": "Konstitusi",
+   "start": 31.276,
+   "end": 31.828
+  },
+  {
+   "word": "tahun",
+   "start": 31.828,
+   "end": 32.104
+  },
+  {
+   "word": "dua",
+   "start": 32.104,
+   "end": 32.27
+  },
+  {
+   "word": "ribu",
+   "start": 32.27,
+   "end": 32.491
+  },
+  {
+   "word": "enam",
+   "start": 32.491,
+   "end": 32.712
+  },
+  {
+   "word": "belas,",
+   "start": 32.712,
+   "end": 32.988
+  },
+  {
+   "word": "bisa",
+   "start": 32.988,
+   "end": 33.448
+  },
+  {
+   "word": "dibuat",
+   "start": 33.448,
+   "end": 33.788
+  },
+  {
+   "word": "sebelum,",
+   "start": 33.788,
+   "end": 34.315
+  },
+  {
+   "word": "saat,",
+   "start": 34.488,
+   "end": 34.771
+  },
+  {
+   "word": "atau",
+   "start": 34.771,
+   "end": 35.312
+  },
+  {
+   "word": "selama",
+   "start": 35.312,
+   "end": 35.699
+  },
+  {
+   "word": "pernikahan.",
+   "start": 35.699,
+   "end": 36.343
+  },
+  {
+   "word": "Mitos",
+   "start": 36.343,
+   "end": 37.088
+  },
+  {
+   "word": "tiga.",
+   "start": 37.088,
+   "end": 37.345
+  },
+  {
+   "word": "Cukup",
+   "start": 37.345,
+   "end": 38.036
+  },
+  {
+   "word": "ditulis",
+   "start": 38.036,
+   "end": 38.488
+  },
+  {
+   "word": "berdua,",
+   "start": 38.488,
+   "end": 38.882
+  },
+  {
+   "word": "tempel",
+   "start": 38.882,
+   "end": 39.469
+  },
+  {
+   "word": "meterai.",
+   "start": 39.469,
+   "end": 40.238
+  },
+  {
+   "word": "Faktanya,",
+   "start": 40.238,
+   "end": 40.918
+  },
+  {
+   "word": "harus",
+   "start": 40.918,
+   "end": 41.458
+  },
+  {
+   "word": "disahkan",
+   "start": 41.458,
+   "end": 41.938
+  },
+  {
+   "word": "pegawai",
+   "start": 41.938,
+   "end": 42.358
+  },
+  {
+   "word": "pencatat",
+   "start": 42.358,
+   "end": 42.738
+  },
+  {
+   "word": "perkawinan",
+   "start": 42.738,
+   "end": 43.478
+  },
+  {
+   "word": "atau",
+   "start": 43.478,
+   "end": 43.758
+  },
+  {
+   "word": "notaris.",
+   "start": 43.758,
+   "end": 44.618
+  },
+  {
+   "word": "Biasanya",
+   "start": 44.618,
+   "end": 45.078
+  },
+  {
+   "word": "dibuat",
+   "start": 45.078,
+   "end": 45.538
+  },
+  {
+   "word": "dengan",
+   "start": 45.538,
+   "end": 45.85
+  },
+  {
+   "word": "akta",
+   "start": 45.85,
+   "end": 46.058
+  },
+  {
+   "word": "notaris,",
+   "start": 46.058,
+   "end": 46.838
+  },
+  {
+   "word": "lalu",
+   "start": 46.838,
+   "end": 47.07
+  },
+  {
+   "word": "dicatat",
+   "start": 47.07,
+   "end": 47.478
+  },
+  {
+   "word": "di",
+   "start": 47.478,
+   "end": 47.654
+  },
+  {
+   "word": "K",
+   "start": 47.654,
+   "end": 47.83
+  },
+  {
+   "word": "U",
+   "start": 47.83,
+   "end": 48.006
+  },
+  {
+   "word": "A",
+   "start": 48.006,
+   "end": 48.182
+  },
+  {
+   "word": "atau",
+   "start": 48.182,
+   "end": 48.535
+  },
+  {
+   "word": "Dukcapil.",
+   "start": 48.535,
+   "end": 49.24
+  },
+  {
+   "word": "Kalau",
+   "start": 49.708,
+   "end": 50.448
+  },
+  {
+   "word": "nggak",
+   "start": 50.448,
+   "end": 50.727
+  },
+  {
+   "word": "dicatat,",
+   "start": 50.727,
+   "end": 51.117
+  },
+  {
+   "word": "pihak",
+   "start": 51.117,
+   "end": 51.768
+  },
+  {
+   "word": "ketiga",
+   "start": 51.768,
+   "end": 52.148
+  },
+  {
+   "word": "bisa",
+   "start": 52.148,
+   "end": 52.368
+  },
+  {
+   "word": "nggak",
+   "start": 52.368,
+   "end": 52.643
+  },
+  {
+   "word": "terikat.",
+   "start": 52.643,
+   "end": 53.548
+  },
+  {
+   "word": "Mitos",
+   "start": 53.548,
+   "end": 53.804
+  },
+  {
+   "word": "empat.",
+   "start": 53.804,
+   "end": 54.168
+  },
+  {
+   "word": "Sekali",
+   "start": 54.168,
+   "end": 54.728
+  },
+  {
+   "word": "dibuat,",
+   "start": 54.728,
+   "end": 55.081
+  },
+  {
+   "word": "nggak",
+   "start": 55.208,
+   "end": 55.548
+  },
+  {
+   "word": "bisa",
+   "start": 55.548,
+   "end": 55.848
+  },
+  {
+   "word": "diubah.",
+   "start": 55.848,
+   "end": 56.708
+  },
+  {
+   "word": "Faktanya,",
+   "start": 56.708,
+   "end": 57.188
+  },
+  {
+   "word": "bisa",
+   "start": 57.188,
+   "end": 57.728
+  },
+  {
+   "word": "diubah",
+   "start": 57.728,
+   "end": 58.228
+  },
+  {
+   "word": "atau",
+   "start": 58.228,
+   "end": 58.548
+  },
+  {
+   "word": "dicabut",
+   "start": 58.548,
+   "end": 59.108
+  },
+  {
+   "word": "kalau",
+   "start": 59.108,
+   "end": 59.448
+  },
+  {
+   "word": "kalian",
+   "start": 59.448,
+   "end": 59.688
+  },
+  {
+   "word": "berdua",
+   "start": 59.688,
+   "end": 60.086
+  },
+  {
+   "word": "setuju,",
+   "start": 60.086,
+   "end": 60.483
+  },
+  {
+   "word": "asal",
+   "start": 60.684,
+   "end": 61.224
+  },
+  {
+   "word": "nggak",
+   "start": 61.224,
+   "end": 61.464
+  },
+  {
+   "word": "merugikan",
+   "start": 61.464,
+   "end": 61.985
+  },
+  {
+   "word": "pihak",
+   "start": 61.985,
+   "end": 62.274
+  },
+  {
+   "word": "ketiga.",
+   "start": 62.274,
+   "end": 62.984
+  },
+  {
+   "word": "Kalau",
+   "start": 62.984,
+   "end": 63.204
+  },
+  {
+   "word": "salah",
+   "start": 63.204,
+   "end": 63.444
+  },
+  {
+   "word": "satu",
+   "start": 63.444,
+   "end": 63.664
+  },
+  {
+   "word": "dari",
+   "start": 63.664,
+   "end": 63.884
+  },
+  {
+   "word": "kalian",
+   "start": 63.884,
+   "end": 64.184
+  },
+  {
+   "word": "buka",
+   "start": 64.184,
+   "end": 64.552
+  },
+  {
+   "word": "usaha,",
+   "start": 64.552,
+   "end": 65.204
+  },
+  {
+   "word": "perjanjian",
+   "start": 65.204,
+   "end": 65.624
+  },
+  {
+   "word": "ini",
+   "start": 65.624,
+   "end": 66.024
+  },
+  {
+   "word": "bisa",
+   "start": 66.024,
+   "end": 66.264
+  },
+  {
+   "word": "jadi",
+   "start": 66.264,
+   "end": 66.524
+  },
+  {
+   "word": "pagar",
+   "start": 66.524,
+   "end": 66.868
+  },
+  {
+   "word": "buat",
+   "start": 66.868,
+   "end": 67.144
+  },
+  {
+   "word": "harta",
+   "start": 67.144,
+   "end": 67.444
+  },
+  {
+   "word": "keluarga.",
+   "start": 67.444,
+   "end": 67.91
+  },
+  {
+   "word": "Ini",
+   "start": 68.284,
+   "end": 68.564
+  },
+  {
+   "word": "bukan",
+   "start": 68.564,
+   "end": 68.784
+  },
+  {
+   "word": "soal",
+   "start": 68.784,
+   "end": 69.084
+  },
+  {
+   "word": "nggak",
+   "start": 69.084,
+   "end": 69.391
+  },
+  {
+   "word": "percaya.",
+   "start": 69.391,
+   "end": 70.178
+  },
+  {
+   "word": "Ini",
+   "start": 70.178,
+   "end": 70.718
+  },
+  {
+   "word": "soal",
+   "start": 70.718,
+   "end": 71.018
+  },
+  {
+   "word": "ngobrol",
+   "start": 71.018,
+   "end": 71.496
+  },
+  {
+   "word": "jujur",
+   "start": 71.496,
+   "end": 71.838
+  },
+  {
+   "word": "sebelum",
+   "start": 71.838,
+   "end": 72.498
+  },
+  {
+   "word": "ada",
+   "start": 72.498,
+   "end": 72.698
+  },
+  {
+   "word": "masalah.",
+   "start": 72.698,
+   "end": 73.498
+  },
+  {
+   "word": "Detailnya,",
+   "start": 73.498,
+   "end": 74.085
+  },
+  {
+   "word": "tanya",
+   "start": 74.278,
+   "end": 74.571
+  },
+  {
+   "word": "ke",
+   "start": 74.571,
+   "end": 74.683
+  },
+  {
+   "word": "notaris",
+   "start": 74.683,
+   "end": 75.078
+  },
+  {
+   "word": "atau",
+   "start": 75.078,
+   "end": 75.346
+  },
+  {
+   "word": "K",
+   "start": 75.346,
+   "end": 75.48
+  },
+  {
+   "word": "U",
+   "start": 75.48,
+   "end": 75.615
+  },
+  {
+   "word": "A",
+   "start": 75.615,
+   "end": 75.749
+  },
+  {
+   "word": "setempat.",
+   "start": 75.749,
+   "end": 76.718
+  },
+  {
+   "word": "Lo",
+   "start": 76.718,
+   "end": 76.918
+  },
+  {
+   "word": "sama",
+   "start": 76.918,
+   "end": 77.131
+  },
+  {
+   "word": "pasangan",
+   "start": 77.131,
+   "end": 77.558
+  },
+  {
+   "word": "pernah",
+   "start": 77.558,
+   "end": 77.918
+  },
+  {
+   "word": "ngobrolin",
+   "start": 77.918,
+   "end": 78.218
+  },
+  {
+   "word": "ini?",
+   "start": 78.218,
+   "end": 78.938
+  },
+  {
+   "word": "Cerita",
+   "start": 78.938,
+   "end": 79.158
+  },
+  {
+   "word": "di",
+   "start": 79.158,
+   "end": 79.269
+  },
+  {
+   "word": "komentar.",
+   "start": 79.269,
+   "end": 79.716
+  },
+  {
+   "word": "Follow",
+   "start": 80.029,
+   "end": 80.309
+  },
+  {
+   "word": "akun",
+   "start": 80.309,
+   "end": 80.569
+  },
+  {
+   "word": "ini,",
+   "start": 80.569,
+   "end": 81.229
+  },
+  {
+   "word": "simpan",
+   "start": 81.229,
+   "end": 81.597
+  },
+  {
+   "word": "videonya,",
+   "start": 81.597,
+   "end": 82.089
+  },
+  {
+   "word": "dan",
+   "start": 82.089,
+   "end": 82.262
+  },
+  {
+   "word": "kirim",
+   "start": 82.262,
+   "end": 82.551
+  },
+  {
+   "word": "ke",
+   "start": 82.551,
+   "end": 82.666
+  },
+  {
+   "word": "pasangan",
+   "start": 82.666,
+   "end": 83.129
+  },
+  {
+   "word": "lo.",
+   "start": 83.129,
+   "end": 83.437
+  }
+ ]
+}

@@ -1,0 +1,985 @@
+{
+ "durasi": 77.087375,
+ "words": [
+  {
+   "word": "Lo",
+   "start": 0,
+   "end": 0.182
+  },
+  {
+   "word": "narik",
+   "start": 0.182,
+   "end": 0.636
+  },
+  {
+   "word": "ojek",
+   "start": 0.636,
+   "end": 1
+  },
+  {
+   "word": "dari",
+   "start": 1,
+   "end": 1.368
+  },
+  {
+   "word": "pagi.",
+   "start": 1.368,
+   "end": 2.46
+  },
+  {
+   "word": "Atau",
+   "start": 2.46,
+   "end": 2.72
+  },
+  {
+   "word": "jualan,",
+   "start": 2.72,
+   "end": 3.44
+  },
+  {
+   "word": "atau",
+   "start": 3.44,
+   "end": 3.82
+  },
+  {
+   "word": "freelance.",
+   "start": 3.82,
+   "end": 4.288
+  },
+  {
+   "word": "Nggak",
+   "start": 4.288,
+   "end": 5
+  },
+  {
+   "word": "ada",
+   "start": 5,
+   "end": 5.24
+  },
+  {
+   "word": "kantor",
+   "start": 5.24,
+   "end": 5.64
+  },
+  {
+   "word": "yang",
+   "start": 5.64,
+   "end": 5.896
+  },
+  {
+   "word": "bayarin",
+   "start": 5.896,
+   "end": 6.344
+  },
+  {
+   "word": "BPJS",
+   "start": 6.344,
+   "end": 6.6
+  },
+  {
+   "word": "Ketenagakerjaan",
+   "start": 6.6,
+   "end": 8.132
+  },
+  {
+   "word": "lo.",
+   "start": 8.132,
+   "end": 8.82
+  },
+  {
+   "word": "Padahal",
+   "start": 8.82,
+   "end": 9.4
+  },
+  {
+   "word": "lo",
+   "start": 9.4,
+   "end": 9.559
+  },
+  {
+   "word": "bisa",
+   "start": 9.559,
+   "end": 9.877
+  },
+  {
+   "word": "daftar",
+   "start": 9.877,
+   "end": 10.355
+  },
+  {
+   "word": "sendiri.",
+   "start": 10.355,
+   "end": 11.262
+  },
+  {
+   "word": "Namanya",
+   "start": 11.262,
+   "end": 11.847
+  },
+  {
+   "word": "peserta",
+   "start": 11.847,
+   "end": 12.402
+  },
+  {
+   "word": "Bukan",
+   "start": 12.402,
+   "end": 12.862
+  },
+  {
+   "word": "Penerima",
+   "start": 12.862,
+   "end": 13.349
+  },
+  {
+   "word": "Upah.",
+   "start": 13.349,
+   "end": 14.002
+  },
+  {
+   "word": "Kita",
+   "start": 14.002,
+   "end": 14.154
+  },
+  {
+   "word": "hitung",
+   "start": 14.154,
+   "end": 14.381
+  },
+  {
+   "word": "bareng.",
+   "start": 14.381,
+   "end": 14.982
+  },
+  {
+   "word": "Ambil",
+   "start": 14.982,
+   "end": 15.282
+  },
+  {
+   "word": "penghasilan",
+   "start": 15.282,
+   "end": 15.762
+  },
+  {
+   "word": "paling",
+   "start": 15.762,
+   "end": 16.022
+  },
+  {
+   "word": "bawah,",
+   "start": 16.022,
+   "end": 16.323
+  },
+  {
+   "word": "sekitar",
+   "start": 16.502,
+   "end": 17.012
+  },
+  {
+   "word": "satu",
+   "start": 17.012,
+   "end": 17.282
+  },
+  {
+   "word": "juta",
+   "start": 17.282,
+   "end": 17.552
+  },
+  {
+   "word": "rupiah",
+   "start": 17.552,
+   "end": 17.956
+  },
+  {
+   "word": "sebulan.",
+   "start": 17.956,
+   "end": 18.762
+  },
+  {
+   "word": "Jaminan",
+   "start": 18.762,
+   "end": 19.162
+  },
+  {
+   "word": "Kecelakaan",
+   "start": 19.162,
+   "end": 19.622
+  },
+  {
+   "word": "Kerja,",
+   "start": 19.622,
+   "end": 20.222
+  },
+  {
+   "word": "sepuluh",
+   "start": 20.222,
+   "end": 20.562
+  },
+  {
+   "word": "ribu",
+   "start": 20.562,
+   "end": 20.79
+  },
+  {
+   "word": "rupiah.",
+   "start": 20.79,
+   "end": 21.434
+  },
+  {
+   "word": "Jaminan",
+   "start": 21.434,
+   "end": 21.914
+  },
+  {
+   "word": "Kematian,",
+   "start": 21.914,
+   "end": 22.425
+  },
+  {
+   "word": "enam",
+   "start": 22.425,
+   "end": 22.68
+  },
+  {
+   "word": "ribu",
+   "start": 22.68,
+   "end": 22.936
+  },
+  {
+   "word": "delapan",
+   "start": 22.936,
+   "end": 23.383
+  },
+  {
+   "word": "ratus",
+   "start": 23.383,
+   "end": 23.702
+  },
+  {
+   "word": "rupiah.",
+   "start": 23.702,
+   "end": 24.085
+  },
+  {
+   "word": "Totalnya",
+   "start": 24.085,
+   "end": 24.983
+  },
+  {
+   "word": "enam",
+   "start": 24.983,
+   "end": 25.238
+  },
+  {
+   "word": "belas",
+   "start": 25.238,
+   "end": 25.557
+  },
+  {
+   "word": "ribu",
+   "start": 25.557,
+   "end": 25.812
+  },
+  {
+   "word": "delapan",
+   "start": 25.812,
+   "end": 26.259
+  },
+  {
+   "word": "ratus",
+   "start": 26.259,
+   "end": 26.578
+  },
+  {
+   "word": "rupiah",
+   "start": 26.578,
+   "end": 26.961
+  },
+  {
+   "word": "sebulan.",
+   "start": 26.961,
+   "end": 27.408
+  },
+  {
+   "word": "Kali",
+   "start": 27.408,
+   "end": 27.989
+  },
+  {
+   "word": "dua",
+   "start": 27.989,
+   "end": 28.181
+  },
+  {
+   "word": "belas",
+   "start": 28.181,
+   "end": 28.5
+  },
+  {
+   "word": "bulan,",
+   "start": 28.5,
+   "end": 28.819
+  },
+  {
+   "word": "dua",
+   "start": 28.819,
+   "end": 29.267
+  },
+  {
+   "word": "ratus",
+   "start": 29.267,
+   "end": 29.587
+  },
+  {
+   "word": "satu",
+   "start": 29.587,
+   "end": 29.842
+  },
+  {
+   "word": "ribu",
+   "start": 29.842,
+   "end": 30.097
+  },
+  {
+   "word": "enam",
+   "start": 30.097,
+   "end": 30.353
+  },
+  {
+   "word": "ratus",
+   "start": 30.353,
+   "end": 30.672
+  },
+  {
+   "word": "rupiah",
+   "start": 30.672,
+   "end": 31.055
+  },
+  {
+   "word": "setahun.",
+   "start": 31.055,
+   "end": 31.502
+  },
+  {
+   "word": "Terus",
+   "start": 31.773,
+   "end": 32.113
+  },
+  {
+   "word": "lo",
+   "start": 32.113,
+   "end": 32.261
+  },
+  {
+   "word": "dapat",
+   "start": 32.261,
+   "end": 32.631
+  },
+  {
+   "word": "apa?",
+   "start": 32.631,
+   "end": 33.113
+  },
+  {
+   "word": "Kalau",
+   "start": 33.113,
+   "end": 33.353
+  },
+  {
+   "word": "kecelakaan",
+   "start": 33.353,
+   "end": 33.833
+  },
+  {
+   "word": "pas",
+   "start": 33.833,
+   "end": 34.133
+  },
+  {
+   "word": "kerja,",
+   "start": 34.133,
+   "end": 34.633
+  },
+  {
+   "word": "biaya",
+   "start": 34.633,
+   "end": 34.873
+  },
+  {
+   "word": "pengobatannya",
+   "start": 34.873,
+   "end": 35.613
+  },
+  {
+   "word": "ditanggung",
+   "start": 35.613,
+   "end": 36.193
+  },
+  {
+   "word": "sesuai",
+   "start": 36.193,
+   "end": 36.593
+  },
+  {
+   "word": "kebutuhan",
+   "start": 36.593,
+   "end": 37.013
+  },
+  {
+   "word": "medis.",
+   "start": 37.013,
+   "end": 37.393
+  },
+  {
+   "word": "Kalau",
+   "start": 37.633,
+   "end": 37.858
+  },
+  {
+   "word": "lo",
+   "start": 37.858,
+   "end": 37.937
+  },
+  {
+   "word": "meninggal",
+   "start": 37.937,
+   "end": 38.293
+  },
+  {
+   "word": "dunia,",
+   "start": 38.293,
+   "end": 38.769
+  },
+  {
+   "word": "keluarga",
+   "start": 38.953,
+   "end": 39.333
+  },
+  {
+   "word": "lo",
+   "start": 39.333,
+   "end": 39.456
+  },
+  {
+   "word": "dapat",
+   "start": 39.456,
+   "end": 39.762
+  },
+  {
+   "word": "santunan",
+   "start": 39.762,
+   "end": 40.251
+  },
+  {
+   "word": "total",
+   "start": 40.251,
+   "end": 40.557
+  },
+  {
+   "word": "empat",
+   "start": 40.557,
+   "end": 40.864
+  },
+  {
+   "word": "puluh",
+   "start": 40.864,
+   "end": 41.17
+  },
+  {
+   "word": "dua",
+   "start": 41.17,
+   "end": 41.353
+  },
+  {
+   "word": "juta",
+   "start": 41.353,
+   "end": 41.629
+  },
+  {
+   "word": "rupiah.",
+   "start": 41.629,
+   "end": 42.043
+  },
+  {
+   "word": "Ada",
+   "start": 42.289,
+   "end": 42.589
+  },
+  {
+   "word": "juga",
+   "start": 42.589,
+   "end": 42.849
+  },
+  {
+   "word": "beasiswa",
+   "start": 42.849,
+   "end": 43.369
+  },
+  {
+   "word": "buat",
+   "start": 43.369,
+   "end": 43.636
+  },
+  {
+   "word": "maksimal",
+   "start": 43.636,
+   "end": 44.169
+  },
+  {
+   "word": "dua",
+   "start": 44.169,
+   "end": 44.369
+  },
+  {
+   "word": "anak,",
+   "start": 44.369,
+   "end": 44.812
+  },
+  {
+   "word": "dengan",
+   "start": 44.812,
+   "end": 45.097
+  },
+  {
+   "word": "syarat",
+   "start": 45.097,
+   "end": 45.383
+  },
+  {
+   "word": "tertentu.",
+   "start": 45.383,
+   "end": 45.764
+  },
+  {
+   "word": "Mau",
+   "start": 45.764,
+   "end": 46.228
+  },
+  {
+   "word": "sekalian",
+   "start": 46.228,
+   "end": 46.609
+  },
+  {
+   "word": "nabung",
+   "start": 46.609,
+   "end": 46.829
+  },
+  {
+   "word": "hari",
+   "start": 46.829,
+   "end": 47.109
+  },
+  {
+   "word": "tua?",
+   "start": 47.109,
+   "end": 47.611
+  },
+  {
+   "word": "Tambah",
+   "start": 47.611,
+   "end": 48.03
+  },
+  {
+   "word": "J",
+   "start": 48.03,
+   "end": 48.17
+  },
+  {
+   "word": "H",
+   "start": 48.17,
+   "end": 48.31
+  },
+  {
+   "word": "T,",
+   "start": 48.31,
+   "end": 48.679
+  },
+  {
+   "word": "dua",
+   "start": 48.679,
+   "end": 48.889
+  },
+  {
+   "word": "puluh",
+   "start": 48.889,
+   "end": 49.132
+  },
+  {
+   "word": "ribu",
+   "start": 49.132,
+   "end": 49.326
+  },
+  {
+   "word": "rupiah.",
+   "start": 49.326,
+   "end": 49.949
+  },
+  {
+   "word": "Jadi",
+   "start": 49.949,
+   "end": 50.339
+  },
+  {
+   "word": "tiga",
+   "start": 50.339,
+   "end": 50.729
+  },
+  {
+   "word": "puluh",
+   "start": 50.729,
+   "end": 51.016
+  },
+  {
+   "word": "enam",
+   "start": 51.016,
+   "end": 51.246
+  },
+  {
+   "word": "ribu",
+   "start": 51.246,
+   "end": 51.476
+  },
+  {
+   "word": "delapan",
+   "start": 51.476,
+   "end": 51.878
+  },
+  {
+   "word": "ratus",
+   "start": 51.878,
+   "end": 52.165
+  },
+  {
+   "word": "rupiah",
+   "start": 52.165,
+   "end": 52.509
+  },
+  {
+   "word": "sebulan.",
+   "start": 52.509,
+   "end": 53.166
+  },
+  {
+   "word": "Daftarnya",
+   "start": 53.166,
+   "end": 53.683
+  },
+  {
+   "word": "bisa",
+   "start": 53.683,
+   "end": 53.883
+  },
+  {
+   "word": "lewat",
+   "start": 53.883,
+   "end": 54.123
+  },
+  {
+   "word": "situs",
+   "start": 54.123,
+   "end": 54.472
+  },
+  {
+   "word": "resmi,",
+   "start": 54.472,
+   "end": 55.044
+  },
+  {
+   "word": "kantor",
+   "start": 55.044,
+   "end": 55.464
+  },
+  {
+   "word": "cabang,",
+   "start": 55.464,
+   "end": 55.883
+  },
+  {
+   "word": "atau",
+   "start": 55.883,
+   "end": 56.17
+  },
+  {
+   "word": "mitra",
+   "start": 56.17,
+   "end": 56.529
+  },
+  {
+   "word": "resmi.",
+   "start": 56.529,
+   "end": 57.142
+  },
+  {
+   "word": "Iurannya",
+   "start": 57.142,
+   "end": 57.716
+  },
+  {
+   "word": "naik",
+   "start": 57.716,
+   "end": 58.003
+  },
+  {
+   "word": "kalau",
+   "start": 58.003,
+   "end": 58.223
+  },
+  {
+   "word": "penghasilan",
+   "start": 58.223,
+   "end": 58.745
+  },
+  {
+   "word": "yang",
+   "start": 58.745,
+   "end": 58.935
+  },
+  {
+   "word": "lo",
+   "start": 58.935,
+   "end": 59.03
+  },
+  {
+   "word": "laporin",
+   "start": 59.03,
+   "end": 59.363
+  },
+  {
+   "word": "lebih",
+   "start": 59.363,
+   "end": 59.623
+  },
+  {
+   "word": "besar.",
+   "start": 59.623,
+   "end": 59.891
+  },
+  {
+   "word": "Yang",
+   "start": 60.183,
+   "end": 60.442
+  },
+  {
+   "word": "penting,",
+   "start": 60.442,
+   "end": 61.083
+  },
+  {
+   "word": "bayar",
+   "start": 61.083,
+   "end": 61.423
+  },
+  {
+   "word": "rutin",
+   "start": 61.423,
+   "end": 61.763
+  },
+  {
+   "word": "biar",
+   "start": 61.763,
+   "end": 62.143
+  },
+  {
+   "word": "perlindungannya",
+   "start": 62.143,
+   "end": 62.803
+  },
+  {
+   "word": "tetap",
+   "start": 62.803,
+   "end": 63.143
+  },
+  {
+   "word": "aktif.",
+   "start": 63.143,
+   "end": 63.412
+  },
+  {
+   "word": "Lo",
+   "start": 63.8,
+   "end": 64.06
+  },
+  {
+   "word": "kerja",
+   "start": 64.06,
+   "end": 64.48
+  },
+  {
+   "word": "buat",
+   "start": 64.48,
+   "end": 64.72
+  },
+  {
+   "word": "keluarga.",
+   "start": 64.72,
+   "end": 65.62
+  },
+  {
+   "word": "Ini",
+   "start": 65.62,
+   "end": 65.912
+  },
+  {
+   "word": "cara",
+   "start": 65.912,
+   "end": 66.3
+  },
+  {
+   "word": "biar",
+   "start": 66.3,
+   "end": 66.481
+  },
+  {
+   "word": "keluarga",
+   "start": 66.481,
+   "end": 66.843
+  },
+  {
+   "word": "lo",
+   "start": 66.843,
+   "end": 66.934
+  },
+  {
+   "word": "nggak",
+   "start": 66.934,
+   "end": 67.16
+  },
+  {
+   "word": "ikut",
+   "start": 67.16,
+   "end": 67.4
+  },
+  {
+   "word": "jatuh",
+   "start": 67.4,
+   "end": 67.86
+  },
+  {
+   "word": "kalau",
+   "start": 67.86,
+   "end": 68.1
+  },
+  {
+   "word": "lo",
+   "start": 68.1,
+   "end": 68.38
+  },
+  {
+   "word": "jatuh.",
+   "start": 68.38,
+   "end": 68.92
+  },
+  {
+   "word": "Lo",
+   "start": 68.92,
+   "end": 69.056
+  },
+  {
+   "word": "udah",
+   "start": 69.056,
+   "end": 69.328
+  },
+  {
+   "word": "punya",
+   "start": 69.328,
+   "end": 69.668
+  },
+  {
+   "word": "BPJS",
+   "start": 69.668,
+   "end": 69.94
+  },
+  {
+   "word": "Ketenagakerjaan,",
+   "start": 69.94,
+   "end": 70.795
+  },
+  {
+   "word": "atau",
+   "start": 70.795,
+   "end": 71.32
+  },
+  {
+   "word": "belum?",
+   "start": 71.32,
+   "end": 71.868
+  },
+  {
+   "word": "Jawab",
+   "start": 71.868,
+   "end": 72.134
+  },
+  {
+   "word": "di",
+   "start": 72.134,
+   "end": 72.24
+  },
+  {
+   "word": "komentar.",
+   "start": 72.24,
+   "end": 72.629
+  },
+  {
+   "word": "Follow",
+   "start": 72.878,
+   "end": 73.496
+  },
+  {
+   "word": "akun",
+   "start": 73.496,
+   "end": 73.874
+  },
+  {
+   "word": "ini,",
+   "start": 73.874,
+   "end": 74.158
+  },
+  {
+   "word": "simpan",
+   "start": 74.158,
+   "end": 74.561
+  },
+  {
+   "word": "videonya,",
+   "start": 74.561,
+   "end": 75.098
+  },
+  {
+   "word": "dan",
+   "start": 75.098,
+   "end": 75.358
+  },
+  {
+   "word": "kirim",
+   "start": 75.358,
+   "end": 75.633
+  },
+  {
+   "word": "ke",
+   "start": 75.633,
+   "end": 75.743
+  },
+  {
+   "word": "temen",
+   "start": 75.743,
+   "end": 76.018
+  },
+  {
+   "word": "yang",
+   "start": 76.018,
+   "end": 76.238
+  },
+  {
+   "word": "kerja",
+   "start": 76.238,
+   "end": 76.518
+  },
+  {
+   "word": "sendiri.",
+   "start": 76.518,
+   "end": 77.037
+  }
+ ]
+}

@@ -34,6 +34,8 @@ Episode yang sudah jadi:
 | `ep01` | nafkah anak setelah cerai | kalender mundur, bukti biaya menumpuk |
 | `ep02` | adopsi anak secara resmi | stempel penetapan mendarat ke berkas |
 | `ep03` | kuota kerja disabilitas | seratus karyawan berbaris, yang masuk kuota menyala |
+| `ep04` | BPJS TK pekerja mandiri | dua belas koin jatuh, satu koin satu bulan iuran |
+| `ep05` | perjanjian pisah harta | dua lingkaran harta mendekat, irisannya menyala |
 
 ## Urutan kerja satu episode
 
@@ -75,8 +77,9 @@ cd ../out && ffmpeg -i ep02_silent.mp4 -i mix-ep02.wav -map 0:v -map 1:a \
   tangan: pakai `kapan("potongan kalimat")` supaya terkunci ke voice over.
 - Kartu kaca memakai salinan latar yang diburamkan, bukan `backdrop-filter`,
   supaya tidak kena bug teks berbayang di Chrome headless.
-- Jangan menganimasikan angka yang punya arti hukum, misalnya nomor atau tahun
-  undang-undang. Di tengah animasi angkanya terbaca salah kalau ada yang
+- Angka rupiah pakai `<Angka ribuan />` supaya tertulis Rp16.800, bukan Rp16800.
+- Jangan menganimasikan angka yang punya arti hukum atau nominal resmi, misalnya
+  nomor dan tahun undang-undang, atau besar santunan. Di tengah animasi angkanya terbaca salah kalau ada yang
   menyimpan gambar layar. Nomor pasal dan tahun ditulis tetap.
 - Huruf yang dieja satu-satu di naskah (contoh "B U M N") otomatis digabung
   jadi satu kata di caption.
